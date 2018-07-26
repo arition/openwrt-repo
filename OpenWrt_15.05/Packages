@@ -54,6 +54,22 @@ License: MIT
 LicenseFiles: LICENSE
 Section: net
 Maintainer: HotBird64
+Architecture: mvebu
+Installed-Size: 51734
+Filename: vlmcsd_svn1111-3_mvebu.ipk
+Size: 52345
+MD5Sum: a3aaf8bfdfdb99fbaa4cf218d06e4cb2
+SHA256sum: 2b942127a7136087f544c7fddd1cfec6b4f081ea5e37988364e9a46f9fc80f75
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: vlmcsd
+Version: svn1111-3
+Depends: libc, libpthread
+Source: package/vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: HotBird64
 Architecture: ramips_24kec
 Installed-Size: 54774
 Filename: vlmcsd_svn1111-3_ramips_24kec.ipk
