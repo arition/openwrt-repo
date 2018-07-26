@@ -52,10 +52,10 @@ Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: package/cups
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 540123
+Installed-Size: 540064
 Filename: cups_2.2.8-1_i386_pentium4.ipk
-Size: 540717
-SHA256sum: 53af20d1b45d32a10409214163de604448ac21c7939b32116f7c1572483ecd98
+Size: 540629
+SHA256sum: 53c9d63269a4af9d56fe6fe42023e9aae29237f1dfb1585eb12caf2ec6e73a9b
 Description:  Common UNIX Printing System (daemon)
 
 Package: cups
@@ -184,10 +184,10 @@ Depends: libc, cups
 Source: package/cups-bjnp
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 16528
+Installed-Size: 16529
 Filename: cups-bjnp_2.0.1-1_i386_pentium4.ipk
-Size: 17320
-SHA256sum: e52b5495595b9723be358131924bc921b48065948e5e8d4cd91db67c4675a4f6
+Size: 17324
+SHA256sum: 81ac9450b37920e1e11647fbc063b4ae1050c0021d6605366531f70e33c93d47
 Description:  CUPS backend for the canon printers using the proprietary USB over
  IP BJNP protocol. This backend allows Cups to print over the network
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
@@ -324,8 +324,8 @@ Section: net
 Architecture: i386_pentium4
 Installed-Size: 10227
 Filename: cups-bsd_2.2.8-1_i386_pentium4.ipk
-Size: 10919
-SHA256sum: 7ccb68c33f7dd3eb07cf1f8bbf99861e93bcacc2ef6fb6a9cffa56b8451bf483
+Size: 10913
+SHA256sum: 6397353d7f3b34171349d9e3593f837ec351649d24299d5f943a9e390ba3fa4e
 Description:  Common UNIX Printing System - BSD commands (old)
 
 Package: cups-bsd
@@ -442,10 +442,10 @@ Depends: libc, libcups, libcupsimage, libcupsmime
 Source: package/cups
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 86154
+Installed-Size: 86157
 Filename: cups-client_2.2.8-1_i386_pentium4.ipk
-Size: 86825
-SHA256sum: d7b5ebf6721e136c5b9759ec6ba799248f6ccf9c5bb7e21f595f6a6ad0b29a2e
+Size: 86830
+SHA256sum: bb04abdffa3f2ca9b5f36806c48effb90f1a33d7e07ec63e0dc580a9a0827bdf
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-client
@@ -562,10 +562,10 @@ Depends: libc, libcupsimage
 Source: package/cups
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 37773
+Installed-Size: 37776
 Filename: cups-filters_2.2.8-1_i386_pentium4.ipk
-Size: 38543
-SHA256sum: 41f461b6ded28526c24b8dc6df1e72b023345d960bf5a318b66663be2c32122c
+Size: 38539
+SHA256sum: 547ddbe724dd01142bfd7210c1ad3127998b36240c0375fb374d3983eb2cbe42
 Description:  Common UNIX Printing System - Filter
 
 Package: cups-filters
@@ -682,10 +682,10 @@ Depends: libc, libcupsppdc
 Source: package/cups
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 12412
+Installed-Size: 12410
 Filename: cups-ppdc_2.2.8-1_i386_pentium4.ipk
-Size: 13101
-SHA256sum: bb089fb9a8d0eb6220a4d7a6a67b2bba52739141f80af7894da69189303d1033
+Size: 13092
+SHA256sum: 3fd42c673c711c291c40947463d51b4be872b56f613779ee04d3dcb6abeb182a
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: cups-ppdc
@@ -802,10 +802,10 @@ Depends: libc, zlib, libpthread, libpng, libjpeg
 Source: package/cups
 Section: libs
 Architecture: i386_pentium4
-Installed-Size: 177555
+Installed-Size: 177556
 Filename: libcups_2.2.8-1_i386_pentium4.ipk
-Size: 175633
-SHA256sum: dde7a5576711681ebf340917f31500b09854b20941950b0809a8e291b67f5399
+Size: 175667
+SHA256sum: 048fedc329d11a9fb81dca33cf26518d9723bb79039a66d5e58f47ec2f772301
 Description:  Common UNIX Printing System - Core library
 
 Package: libcups
@@ -922,10 +922,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: i386_pentium4
-Installed-Size: 21929
+Installed-Size: 21931
 Filename: libcupscgi_2.2.8-1_i386_pentium4.ipk
-Size: 22619
-SHA256sum: d6cd87cd374f1f1e8599e5b4d315bab19f07ebd569502f70cc5a7a89c49cbbda
+Size: 22625
+SHA256sum: f2de535dfb4e4a1583c68f0ce869ca275ba7404de829c1c5c94660fed7a14711
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupscgi
@@ -1042,10 +1042,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: i386_pentium4
-Installed-Size: 12870
+Installed-Size: 12869
 Filename: libcupsimage_2.2.8-1_i386_pentium4.ipk
-Size: 13531
-SHA256sum: 23cd1203e41da4be967524515695f65243e4be5e15567a6296b1537ef02161f9
+Size: 13524
+SHA256sum: 1d09f5bf912e3f1cdd04b5e6d2fd78bdc0c6dc0753284a21f59ec3aa44a9e37b
 Description:  Common UNIX Printing System - Image library
 
 Package: libcupsimage
@@ -1162,10 +1162,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: i386_pentium4
-Installed-Size: 8726
+Installed-Size: 8727
 Filename: libcupsmime_2.2.8-1_i386_pentium4.ipk
-Size: 9420
-SHA256sum: 8159d912dc3241497a41411f63bd8cb8b5eaf483b47d00b5d8f7eab2b59f7a98
+Size: 9424
+SHA256sum: 186c718748a977f8172081b74e1ac43e8fcdec6c607b3997980f822be832fb61
 Description:  Common UNIX Printing System - MIME library
 
 Package: libcupsmime
@@ -1282,10 +1282,10 @@ Depends: libc, libcups, libstdcpp
 Source: package/cups
 Section: libs
 Architecture: i386_pentium4
-Installed-Size: 39115
+Installed-Size: 39116
 Filename: libcupsppdc_2.2.8-1_i386_pentium4.ipk
-Size: 39905
-SHA256sum: 5726aab4bb14a293666c9fc76152a3c07e703bdbf406c85020e2bb60c5858614
+Size: 39914
+SHA256sum: ad997a9892d4684b5cae2222bf676b80010cf0874c2ea757b9f2140538212ed9
 Description:  Common UNIX Printing System - PPDC library
 
 Package: libcupsppdc
