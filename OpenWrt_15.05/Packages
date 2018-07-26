@@ -63,6 +63,19 @@ MD5Sum: 3902fe10c885c7c24b79816938de6745
 SHA256sum: 5fcd380d11367e85f01bba77e59917f4eafdf4fb45b73706ab24acf0ad7fde37
 Description:  Common UNIX Printing System (daemon)
 
+Package: cups
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
+Source: package/cups
+Section: net
+Architecture: x86
+Installed-Size: 546543
+Filename: cups_2.2.8-1_x86.ipk
+Size: 545788
+MD5Sum: 49f4c398253285ddb49ee6e9c1a22490
+SHA256sum: da2f8d4ddcb7b25036b90bb30a20ed9c2c4dd25c89dbf1df56cf5301b1ea2b9c
+Description:  Common UNIX Printing System (daemon)
+
 Package: cups-bjnp
 Version: 2.0.1-1
 Depends: libc, cups
@@ -143,6 +156,22 @@ Description:  CUPS backend for the canon printers using the proprietary USB over
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
  is designed by reverse engineering.
 
+Package: cups-bjnp
+Version: 2.0.1-1
+Depends: libc, cups
+Source: package/cups-bjnp
+Section: net
+Architecture: x86
+Installed-Size: 15365
+Filename: cups-bjnp_2.0.1-1_x86.ipk
+Size: 16035
+MD5Sum: 23bfecef020ac5fad405e6a10a875d62
+SHA256sum: d9bfca78479ccfb35622ef0b0b7a92404e1d90112ff9bebadba4d865eff348d6
+Description:  CUPS backend for the canon printers using the proprietary USB over
+ IP BJNP protocol. This backend allows Cups to print over the network
+ to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
+ is designed by reverse engineering.
+
 Package: cups-bsd
 Version: 2.2.8-1
 Depends: libc, libcups
@@ -206,6 +235,19 @@ Filename: cups-bsd_2.2.8-1_ramips_24kec.ipk
 Size: 12094
 MD5Sum: 33299785450a8962ccf0eaedb2888183
 SHA256sum: d90aef2b9a1ca2839b9774411b5dcc4fc82b5a24bca9875ad4ab81469ceb9d82
+Description:  Common UNIX Printing System - BSD commands (old)
+
+Package: cups-bsd
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: net
+Architecture: x86
+Installed-Size: 11049
+Filename: cups-bsd_2.2.8-1_x86.ipk
+Size: 11705
+MD5Sum: 6b478b6537886cd616e5cd716aec5988
+SHA256sum: 513f4f5c5813b599694dd47069d10b618b85abd42df81dd24121c195545bbe9a
 Description:  Common UNIX Printing System - BSD commands (old)
 
 Package: cups-client
@@ -273,6 +315,19 @@ MD5Sum: 887e22ed77efd681fdddfcbf514eb5ee
 SHA256sum: 8f515cf272229d5773dc0d08badda66443c4043c3cfbe95311d72a75da830dd3
 Description:  Common UNIX Printing System - Client commands
 
+Package: cups-client
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsimage, libcupsmime
+Source: package/cups
+Section: net
+Architecture: x86
+Installed-Size: 91703
+Filename: cups-client_2.2.8-1_x86.ipk
+Size: 92021
+MD5Sum: 994cf86eeeb570591c386a4a3a2a7220
+SHA256sum: 2ee806875c7ac0f38fb427209e59641208a06a2e4c04a09f40105dce686122ff
+Description:  Common UNIX Printing System - Client commands
+
 Package: cups-filters
 Version: 2.2.8-1
 Depends: libc, libcupsimage
@@ -336,6 +391,19 @@ Filename: cups-filters_2.2.8-1_ramips_24kec.ipk
 Size: 44644
 MD5Sum: ba460e8b2291681bc7eb88a49b7390a0
 SHA256sum: fc34c6b150e6251190383374b25dd7be7c45e853633a12c1aca5b042a0538ca5
+Description:  Common UNIX Printing System - Filter
+
+Package: cups-filters
+Version: 2.2.8-1
+Depends: libc, libcupsimage
+Source: package/cups
+Section: net
+Architecture: x86
+Installed-Size: 41067
+Filename: cups-filters_2.2.8-1_x86.ipk
+Size: 41824
+MD5Sum: f2a780132ad6af417d7f289990625a6f
+SHA256sum: 15d5e4aa72e812eab5d8b09f25e0a1c9ae15577eb47f5534f3eed26e876429c3
 Description:  Common UNIX Printing System - Filter
 
 Package: cups-ppdc
@@ -403,6 +471,19 @@ MD5Sum: a6683c77a2196826742636748c8ba336
 SHA256sum: 84d12774f0d7841423a5e978d23d0b9966f5fbbce65654822c6bbe73a9a01877
 Description:  Common UNIX Printing System - PPDC utils
 
+Package: cups-ppdc
+Version: 2.2.8-1
+Depends: libc, libcupsppdc
+Source: package/cups
+Section: net
+Architecture: x86
+Installed-Size: 13302
+Filename: cups-ppdc_2.2.8-1_x86.ipk
+Size: 13921
+MD5Sum: a23e923bab90f009b9ababa600eeab0f
+SHA256sum: f94dd713ae6bee584204f90d8a1cce282fa7b58ab5fa898ade55d4b744a5bcc3
+Description:  Common UNIX Printing System - PPDC utils
+
 Package: libcups
 Version: 2.2.8-1
 Depends: libc, zlib, libpthread, libpng, libjpeg
@@ -466,6 +547,19 @@ Filename: libcups_2.2.8-1_ramips_24kec.ipk
 Size: 175782
 MD5Sum: d7f7e569d4ceca953f856325695efec3
 SHA256sum: 817c20cb11dc303d07ada30b097063eb2883b76e7b66f231fbcff86f4c691a49
+Description:  Common UNIX Printing System - Core library
+
+Package: libcups
+Version: 2.2.8-1
+Depends: libc, zlib, libpthread, libpng, libjpeg
+Source: package/cups
+Section: libs
+Architecture: x86
+Installed-Size: 179636
+Filename: libcups_2.2.8-1_x86.ipk
+Size: 176477
+MD5Sum: a15a63531779ae84150ddf3f4ed2c1ef
+SHA256sum: 530fa845a6045f41fb71ff9cb91285b51a02269fd9827ea3acc1489994346bab
 Description:  Common UNIX Printing System - Core library
 
 Package: libcupscgi
@@ -533,6 +627,19 @@ MD5Sum: ca92c3764178a39ea2657b929f003a17
 SHA256sum: be5d5b314b049db5c0f51feee2f0ca8bf3420d4b9f0787aca2cad5012c0c2abd
 Description:  Common UNIX Printing System - CGI library
 
+Package: libcupscgi
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: x86
+Installed-Size: 22857
+Filename: libcupscgi_2.2.8-1_x86.ipk
+Size: 23361
+MD5Sum: 1e6acda95be5482a812194c181c82353
+SHA256sum: 833de1fdccb7f7de49997e0c6fcbf6c6c725272e2474424c051a013f0843ba94
+Description:  Common UNIX Printing System - CGI library
+
 Package: libcupsimage
 Version: 2.2.8-1
 Depends: libc, libcups
@@ -596,6 +703,19 @@ Filename: libcupsimage_2.2.8-1_ramips_24kec.ipk
 Size: 14026
 MD5Sum: c9bf7d98f74587da777485da1401d95b
 SHA256sum: f9f7be6ff365c852ff62899224802ac9908e90c6db482985c689206feb029316
+Description:  Common UNIX Printing System - Image library
+
+Package: libcupsimage
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: x86
+Installed-Size: 13181
+Filename: libcupsimage_2.2.8-1_x86.ipk
+Size: 13846
+MD5Sum: f36846db9ea66bdbbc306a3115015e68
+SHA256sum: 028ae064153e12d6dada4f03cef5b7d74d699c098be1d8f1334a042a14dca308
 Description:  Common UNIX Printing System - Image library
 
 Package: libcupsmime
@@ -663,6 +783,19 @@ MD5Sum: 6f1bd53fe3732ad95eddcc718868c25f
 SHA256sum: 7bb9babc8a540cb1903c28cc000041ada4445cf8809ce18a8501f9c665859226
 Description:  Common UNIX Printing System - MIME library
 
+Package: libcupsmime
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: x86
+Installed-Size: 8981
+Filename: libcupsmime_2.2.8-1_x86.ipk
+Size: 9601
+MD5Sum: de277959b296445f82bf37f65656777f
+SHA256sum: 9756841764cb92a66de2f96db7b4804ec35bfd099404ffb437e3e01c4496c91b
+Description:  Common UNIX Printing System - MIME library
+
 Package: libcupsppdc
 Version: 2.2.8-1
 Depends: libc, libcups, libstdcpp
@@ -726,6 +859,19 @@ Filename: libcupsppdc_2.2.8-1_ramips_24kec.ipk
 Size: 42067
 MD5Sum: 22792b23fea342be92918642a2fd9189
 SHA256sum: f006d9e4a1b0fc464eafa69658dd28267164c8e528b4ca0e14a06f526ebfe006
+Description:  Common UNIX Printing System - PPDC library
+
+Package: libcupsppdc
+Version: 2.2.8-1
+Depends: libc, libcups, libstdcpp
+Source: package/cups
+Section: libs
+Architecture: x86
+Installed-Size: 41942
+Filename: libcupsppdc_2.2.8-1_x86.ipk
+Size: 42532
+MD5Sum: 015a91ea618d853e899ac1c2d5430010
+SHA256sum: 768d53d5b92b58fc281d8f37f93f4cc77f21aca1bee40d729cc152aed1f65592
 Description:  Common UNIX Printing System - PPDC library
 
 Package: luci-app-vlmcsd
