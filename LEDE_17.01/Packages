@@ -112,10 +112,10 @@ Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: package/cups
 Section: net
 Architecture: x86_64
-Installed-Size: 565357
+Installed-Size: 565337
 Filename: cups_2.2.8-1_x86_64.ipk
-Size: 565746
-SHA256sum: 20b5378b0eab72cd188c8011c7d22025ef7b67ea620b1df1fceb04a806a3c319
+Size: 565721
+SHA256sum: 0871bb270cc44d6209c74077a5522eb1cf8ed28d28b894e0192f413a74723972
 Description:  Common UNIX Printing System (daemon)
 
 Package: cups-bjnp
@@ -259,10 +259,10 @@ Depends: libc, cups
 Source: package/cups-bjnp
 Section: net
 Architecture: x86_64
-Installed-Size: 17411
+Installed-Size: 17413
 Filename: cups-bjnp_2.0.1-1_x86_64.ipk
-Size: 18153
-SHA256sum: da559668036b4e799d50de20102ef42b75a4eb858c345764673cd952613331c7
+Size: 18151
+SHA256sum: c2424121fb57d55a014dcc5c67b751678de71f05db2b2285858791dd5b316103
 Description:  CUPS backend for the canon printers using the proprietary USB over
  IP BJNP protocol. This backend allows Cups to print over the network
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
@@ -382,10 +382,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: net
 Architecture: x86_64
-Installed-Size: 10742
+Installed-Size: 10741
 Filename: cups-bsd_2.2.8-1_x86_64.ipk
-Size: 11398
-SHA256sum: b93d42529166ae0a2276a0ebd6cf1b57e6b322ce803b28471d09287251a17c85
+Size: 11399
+SHA256sum: 4ecbb6969befaedcc4c6e5a89279aa977d3fe529f27020cc2ec36f333bcbf98b
 Description:  Common UNIX Printing System - BSD commands (old)
 
 Package: cups-client
@@ -502,10 +502,10 @@ Depends: libc, libcups, libcupsimage, libcupsmime
 Source: package/cups
 Section: net
 Architecture: x86_64
-Installed-Size: 91985
+Installed-Size: 91982
 Filename: cups-client_2.2.8-1_x86_64.ipk
-Size: 92664
-SHA256sum: 06a8a8f9f2f745a8e9ba65280972dc25ccd8d7e617854a622245ad62aab7d8de
+Size: 92647
+SHA256sum: d753c36113066f24b55e6874289c615aae78b8993f78bff7b98dac433c893499
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-filters
@@ -622,10 +622,10 @@ Depends: libc, libcupsimage
 Source: package/cups
 Section: net
 Architecture: x86_64
-Installed-Size: 39752
+Installed-Size: 39744
 Filename: cups-filters_2.2.8-1_x86_64.ipk
-Size: 40494
-SHA256sum: e7a3e4879d8455bcad0433872b47b998525395638682ba44e4ffcb9c617b3243
+Size: 40476
+SHA256sum: 2b288436f00a0fd63b09436942f3121dad425c71c8895fa87a8004c80bff2050
 Description:  Common UNIX Printing System - Filter
 
 Package: cups-ppdc
@@ -742,10 +742,10 @@ Depends: libc, libcupsppdc
 Source: package/cups
 Section: net
 Architecture: x86_64
-Installed-Size: 12556
+Installed-Size: 12553
 Filename: cups-ppdc_2.2.8-1_x86_64.ipk
-Size: 13155
-SHA256sum: 06ccd7b14c854c80fe1cbbdd94137b35afcb317a774601a5edcf619b63520888
+Size: 13149
+SHA256sum: dc7e1d0977703ec76ddcd8d58590ff09b5fb517db21436994593d95e71d8ed94
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: libcups
@@ -862,10 +862,10 @@ Depends: libc, zlib, libpthread, libpng, libjpeg
 Source: package/cups
 Section: libs
 Architecture: x86_64
-Installed-Size: 193365
+Installed-Size: 193362
 Filename: libcups_2.2.8-1_x86_64.ipk
-Size: 192678
-SHA256sum: b9a918cad26147f49efbba986f1faa90958d8712d9cae8766c6eea175d0d2b2c
+Size: 192698
+SHA256sum: 606c8110fa1060474a4eedf00f414bba55e6fce458d940c702d7c59486d5aa4c
 Description:  Common UNIX Printing System - Core library
 
 Package: libcupscgi
@@ -982,10 +982,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: x86_64
-Installed-Size: 22766
+Installed-Size: 22765
 Filename: libcupscgi_2.2.8-1_x86_64.ipk
-Size: 23408
-SHA256sum: be3fb718cda31cffb4cbbc93d28fa85e80275de6164d349c7879f4c6d7cd3ac1
+Size: 23414
+SHA256sum: 95adf4e54e9763a4478ab25772a40cb7d50ca29a96ccfd33335d2633c9980338
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupsimage
@@ -1102,10 +1102,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: x86_64
-Installed-Size: 13050
+Installed-Size: 13051
 Filename: libcupsimage_2.2.8-1_x86_64.ipk
-Size: 13706
-SHA256sum: 7ee8acce9dcd808f3d7538e407f47b3d60654494750f672cc3a860afa52925dc
+Size: 13708
+SHA256sum: b77b047a95ef222bd3e1f041846173ec382c0d209a025e231c4fa3a32db4aa85
 Description:  Common UNIX Printing System - Image library
 
 Package: libcupsmime
@@ -1222,10 +1222,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: x86_64
-Installed-Size: 8620
+Installed-Size: 8619
 Filename: libcupsmime_2.2.8-1_x86_64.ipk
-Size: 9312
-SHA256sum: 21f65ed9b4daa1623be3ea0f4f7b065884ed0e78adfa6d8f5e748601ac80a54a
+Size: 9313
+SHA256sum: 3523792500fec618438b7f5ccfcf92ccf132703504c490f9fe1736be1a4ecba7
 Description:  Common UNIX Printing System - MIME library
 
 Package: libcupsppdc
@@ -1342,10 +1342,10 @@ Depends: libc, libcups, libstdcpp
 Source: package/cups
 Section: libs
 Architecture: x86_64
-Installed-Size: 41276
+Installed-Size: 41273
 Filename: libcupsppdc_2.2.8-1_x86_64.ipk
-Size: 42083
-SHA256sum: c89647ae9a7aa02228e88cc5c550d729d4362163a91d47447e9f1a99dd6f3cd1
+Size: 42085
+SHA256sum: b1eb87ed3ab2ce215f7b5e3de6916291ead13d78d08ca5a6eab93b4b7589a1ed
 Description:  Common UNIX Printing System - PPDC library
 
 Package: luci-app-vlmcsd
