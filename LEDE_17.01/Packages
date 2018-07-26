@@ -34,6 +34,18 @@ Size: 536326
 SHA256sum: 4a722c2ce44cc03668e3386849565991b23d4bc92e6a56754d4fee9ab2b57f18
 Description:  Common UNIX Printing System (daemon)
 
+Package: cups
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
+Source: package/cups
+Section: net
+Architecture: mips_mips32
+Installed-Size: 579793
+Filename: cups_2.2.8-1_mips_mips32.ipk
+Size: 579551
+SHA256sum: c74b08150745f4952063a2a3573adb767ddd8b52ef3fb88948f863f9f60f1016
+Description:  Common UNIX Printing System (daemon)
+
 Package: cups-bjnp
 Version: 2.0.1-1
 Depends: libc, cups
@@ -79,6 +91,21 @@ Description:  CUPS backend for the canon printers using the proprietary USB over
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
  is designed by reverse engineering.
 
+Package: cups-bjnp
+Version: 2.0.1-1
+Depends: libc, cups
+Source: package/cups-bjnp
+Section: net
+Architecture: mips_mips32
+Installed-Size: 17522
+Filename: cups-bjnp_2.0.1-1_mips_mips32.ipk
+Size: 18231
+SHA256sum: b1d1bd95f748c7e8b290c8a39b5bd931ef797bb71868662c6aec9b3d87dd83d5
+Description:  CUPS backend for the canon printers using the proprietary USB over
+ IP BJNP protocol. This backend allows Cups to print over the network
+ to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
+ is designed by reverse engineering.
+
 Package: cups-bsd
 Version: 2.2.8-1
 Depends: libc, libcups
@@ -113,6 +140,18 @@ Installed-Size: 9912
 Filename: cups-bsd_2.2.8-1_mipsel_24kc.ipk
 Size: 10620
 SHA256sum: 13075482de0089047668b124135e3f9cb34e4c7d2faa2c2f50b15a0a79564fc5
+Description:  Common UNIX Printing System - BSD commands (old)
+
+Package: cups-bsd
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: net
+Architecture: mips_mips32
+Installed-Size: 10984
+Filename: cups-bsd_2.2.8-1_mips_mips32.ipk
+Size: 11672
+SHA256sum: 68dadf6823705e20275d47f97ea8e375ae2cfa1158fd921b52cad97cfb57e5b3
 Description:  Common UNIX Printing System - BSD commands (old)
 
 Package: cups-client
@@ -151,6 +190,18 @@ Size: 88580
 SHA256sum: 236c753bcb37926d8aaa5e34402d8024e0a74cacd3d4e1076bf45c908f8aebcf
 Description:  Common UNIX Printing System - Client commands
 
+Package: cups-client
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsimage, libcupsmime
+Source: package/cups
+Section: net
+Architecture: mips_mips32
+Installed-Size: 96358
+Filename: cups-client_2.2.8-1_mips_mips32.ipk
+Size: 97060
+SHA256sum: aaed1dd055e8dbf5550fc00ccc2e6770a80a549a0446263d31841748a23806d8
+Description:  Common UNIX Printing System - Client commands
+
 Package: cups-filters
 Version: 2.2.8-1
 Depends: libc, libcupsimage
@@ -185,6 +236,18 @@ Installed-Size: 39717
 Filename: cups-filters_2.2.8-1_mipsel_24kc.ipk
 Size: 40499
 SHA256sum: ab8b98db259e966e58871605119e7d0867c8642fe3d8907dbe9b6e266ca5a8e7
+Description:  Common UNIX Printing System - Filter
+
+Package: cups-filters
+Version: 2.2.8-1
+Depends: libc, libcupsimage
+Source: package/cups
+Section: net
+Architecture: mips_mips32
+Installed-Size: 43330
+Filename: cups-filters_2.2.8-1_mips_mips32.ipk
+Size: 44050
+SHA256sum: 3e6fe57f2c72c1c7291426686168e827648bb537a44e1f2528f4151b87c06495
 Description:  Common UNIX Printing System - Filter
 
 Package: cups-ppdc
@@ -223,6 +286,18 @@ Size: 12284
 SHA256sum: 3db948d5de9ce911c5bef269cceed0ea3250a7dc121e81ce9bdc4c017d989ca9
 Description:  Common UNIX Printing System - PPDC utils
 
+Package: cups-ppdc
+Version: 2.2.8-1
+Depends: libc, libcupsppdc
+Source: package/cups
+Section: net
+Architecture: mips_mips32
+Installed-Size: 12691
+Filename: cups-ppdc_2.2.8-1_mips_mips32.ipk
+Size: 13352
+SHA256sum: c50d376831bcccaa699cecf242e5ab64b165023353f18f914d9518a390902d03
+Description:  Common UNIX Printing System - PPDC utils
+
 Package: libcups
 Version: 2.2.8-1
 Depends: libc, zlib, libpthread, libpng, libjpeg
@@ -257,6 +332,18 @@ Installed-Size: 164801
 Filename: libcups_2.2.8-1_mipsel_24kc.ipk
 Size: 162813
 SHA256sum: bb172d4ee8c7658dae22910f898aa4d4dd3879da38613c0145510418031b716a
+Description:  Common UNIX Printing System - Core library
+
+Package: libcups
+Version: 2.2.8-1
+Depends: libc, zlib, libpthread, libpng, libjpeg
+Source: package/cups
+Section: libs
+Architecture: mips_mips32
+Installed-Size: 194545
+Filename: libcups_2.2.8-1_mips_mips32.ipk
+Size: 190579
+SHA256sum: 4e42130dfebacc54fe692feadd5d59b88cd55c9c994bafde2a0b847d836e3f02
 Description:  Common UNIX Printing System - Core library
 
 Package: libcupscgi
@@ -295,6 +382,18 @@ Size: 21115
 SHA256sum: ae036ee6e370485fdd238ac5e63ee89195e84b451c683e4d11ee5e1cb00ef44a
 Description:  Common UNIX Printing System - CGI library
 
+Package: libcupscgi
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: mips_mips32
+Installed-Size: 23677
+Filename: libcupscgi_2.2.8-1_mips_mips32.ipk
+Size: 24317
+SHA256sum: 5e0a0aa99730ec354f5b50122d0c98797e8bf06fc211e1f8d70f9801647747fa
+Description:  Common UNIX Printing System - CGI library
+
 Package: libcupsimage
 Version: 2.2.8-1
 Depends: libc, libcups
@@ -329,6 +428,18 @@ Installed-Size: 12553
 Filename: libcupsimage_2.2.8-1_mipsel_24kc.ipk
 Size: 13250
 SHA256sum: 1db2dbaa056f3cbdea4346cca92910e422c0a7102b650ad94c463075ea754c81
+Description:  Common UNIX Printing System - Image library
+
+Package: libcupsimage
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: mips_mips32
+Installed-Size: 13866
+Filename: libcupsimage_2.2.8-1_mips_mips32.ipk
+Size: 14532
+SHA256sum: 937d01643bd5e021e0b7bbb2bd9f86fa746847793c9a32dc9329cde4ec4671df
 Description:  Common UNIX Printing System - Image library
 
 Package: libcupsmime
@@ -367,6 +478,18 @@ Size: 8250
 SHA256sum: 9cd3ebdc5a62cd94163d3b8067af5b64f6c471c6984838bec9b936743dcd6125
 Description:  Common UNIX Printing System - MIME library
 
+Package: libcupsmime
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: mips_mips32
+Installed-Size: 8794
+Filename: libcupsmime_2.2.8-1_mips_mips32.ipk
+Size: 9471
+SHA256sum: 184ef40d0971b8e283fc87b473706928813c12a4e74021e7fdf766c23e138a46
+Description:  Common UNIX Printing System - MIME library
+
 Package: libcupsppdc
 Version: 2.2.8-1
 Depends: libc, libcups, libstdcpp
@@ -401,6 +524,18 @@ Installed-Size: 39077
 Filename: libcupsppdc_2.2.8-1_mipsel_24kc.ipk
 Size: 39893
 SHA256sum: 8bbdc2a31bdc19bb990ebc6f9a94ec08e1475e20a874a45fbb5a0dbfff3faf4d
+Description:  Common UNIX Printing System - PPDC library
+
+Package: libcupsppdc
+Version: 2.2.8-1
+Depends: libc, libcups, libstdcpp
+Source: package/cups
+Section: libs
+Architecture: mips_mips32
+Installed-Size: 44643
+Filename: libcupsppdc_2.2.8-1_mips_mips32.ipk
+Size: 45374
+SHA256sum: b767828d5071e76f1d531b30a12f988f9fec53917ce2f16a1b86dd9428e8912b
 Description:  Common UNIX Printing System - PPDC library
 
 Package: luci-app-vlmcsd
