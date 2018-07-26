@@ -7,11 +7,11 @@ LicenseFiles: LICENSE
 Section: luci
 Maintainer: fuyumi
 Architecture: all
-Installed-Size: 1634
+Installed-Size: 1633
 Filename: luci-app-vlmcsd_1.0.2-1_all.ipk
-Size: 2496
-MD5Sum: 4d26d7c0925c19d142070817c8621ac0
-SHA256sum: 7cc1cc1bce0561c8b27d3ed75435a9336f218e4ca197f9b0dab3e8f9d2d12550
+Size: 2492
+MD5Sum: 0cb67af612a2fb010fe8c4d7d119f6da
+SHA256sum: aab2a1a9ecdbeb2fccbba79d66667b48b14772f99ca3fd504e20d6feb4d41036
 Description:  This package contains LuCI configuration pages for openwrt-vlmcsd.
 
 Package: vlmcsd
