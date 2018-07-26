@@ -42,6 +42,19 @@ Version: 2.2.8-1
 Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: package/cups
 Section: net
+Architecture: kirkwood
+Installed-Size: 577712
+Filename: cups_2.2.8-1_kirkwood.ipk
+Size: 577262
+MD5Sum: 8f0467b1939edfbab3b9abc2ceb47f86
+SHA256sum: 42e1c2845dd21aa8ff0e39592416b8f70943ce81dcaac021415bdf8c21d28a0d
+Description:  Common UNIX Printing System (daemon)
+
+Package: cups
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
+Source: package/cups
+Section: net
 Architecture: mvebu
 Installed-Size: 577239
 Filename: cups_2.2.8-1_mvebu.ipk
@@ -132,6 +145,22 @@ Filename: cups-bjnp_2.0.1-1_brcm47xx.ipk
 Size: 17259
 MD5Sum: fc2791e00c62e8b9e6e031174260c589
 SHA256sum: 013746daca63dd3997fd7954694fb4c4222aac1ec746648d6ba3bafcacaba295
+Description:  CUPS backend for the canon printers using the proprietary USB over
+ IP BJNP protocol. This backend allows Cups to print over the network
+ to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
+ is designed by reverse engineering.
+
+Package: cups-bjnp
+Version: 2.0.1-1
+Depends: libc, cups
+Source: package/cups-bjnp
+Section: net
+Architecture: kirkwood
+Installed-Size: 15427
+Filename: cups-bjnp_2.0.1-1_kirkwood.ipk
+Size: 16190
+MD5Sum: 7d20e5fede288824d8e3234a7f817d33
+SHA256sum: 4ad28f74a151793ab997055fff6ad385f849004d0cb461df9dfbd57a601df82f
 Description:  CUPS backend for the canon printers using the proprietary USB over
  IP BJNP protocol. This backend allows Cups to print over the network
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
@@ -245,6 +274,19 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: net
+Architecture: kirkwood
+Installed-Size: 11486
+Filename: cups-bsd_2.2.8-1_kirkwood.ipk
+Size: 12161
+MD5Sum: e94aac4ef9bf6dc5ceff28a09ab829b7
+SHA256sum: 30eafde0ffdebbb8ee7d2633852757440be2ddc00a62ed5e6348425fefb8e4e0
+Description:  Common UNIX Printing System - BSD commands (old)
+
+Package: cups-bsd
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: net
 Architecture: mvebu
 Installed-Size: 11452
 Filename: cups-bsd_2.2.8-1_mvebu.ipk
@@ -329,6 +371,19 @@ Filename: cups-client_2.2.8-1_brcm47xx.ipk
 Size: 96313
 MD5Sum: ca6e9090732922d437a4aa106e47dec0
 SHA256sum: 5a230c5f8f794bd998a53f6f74c615c2c16e9610e64e0f4d4ff9306156b84848
+Description:  Common UNIX Printing System - Client commands
+
+Package: cups-client
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsimage, libcupsmime
+Source: package/cups
+Section: net
+Architecture: kirkwood
+Installed-Size: 100699
+Filename: cups-client_2.2.8-1_kirkwood.ipk
+Size: 101259
+MD5Sum: 00a832705097c91adad63c8e5ccf4731
+SHA256sum: d29447e6e650f17829fe33d17b62c0d40d997b86d2b68a397a0ffc70e953272d
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-client
@@ -427,6 +482,19 @@ Version: 2.2.8-1
 Depends: libc, libcupsimage
 Source: package/cups
 Section: net
+Architecture: kirkwood
+Installed-Size: 46639
+Filename: cups-filters_2.2.8-1_kirkwood.ipk
+Size: 47313
+MD5Sum: 992cf9f3ca6b63faae6d445b58ade638
+SHA256sum: fcf4d7d69d589953fdf7300148bc44bc6d0936cee616c47391026a2cfc05e376
+Description:  Common UNIX Printing System - Filter
+
+Package: cups-filters
+Version: 2.2.8-1
+Depends: libc, libcupsimage
+Source: package/cups
+Section: net
 Architecture: mvebu
 Installed-Size: 46233
 Filename: cups-filters_2.2.8-1_mvebu.ipk
@@ -511,6 +579,19 @@ Filename: cups-ppdc_2.2.8-1_brcm47xx.ipk
 Size: 13795
 MD5Sum: a769d3adb4edf1750172bdc9aae87483
 SHA256sum: 181841d9a2ac18c76457896298264020293dc0214d07296e00d99c894279bb78
+Description:  Common UNIX Printing System - PPDC utils
+
+Package: cups-ppdc
+Version: 2.2.8-1
+Depends: libc, libcupsppdc
+Source: package/cups
+Section: net
+Architecture: kirkwood
+Installed-Size: 13323
+Filename: cups-ppdc_2.2.8-1_kirkwood.ipk
+Size: 13982
+MD5Sum: 45365e4fb6e46f8e9e6f762741115ce5
+SHA256sum: b338c0118dd0cec2629ede945939b1662b95cd60b1811842b87dbb00451dc9da
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: cups-ppdc
@@ -609,6 +690,19 @@ Version: 2.2.8-1
 Depends: libc, zlib, libpthread, libpng, libjpeg
 Source: package/cups
 Section: libs
+Architecture: kirkwood
+Installed-Size: 175113
+Filename: libcups_2.2.8-1_kirkwood.ipk
+Size: 172480
+MD5Sum: 5f5b372e90e931892f81d4281e10164f
+SHA256sum: 1ec3a9c02c98926c135df3127b5d6f12c7ebe72c8a02c4873d9b3516911b7868
+Description:  Common UNIX Printing System - Core library
+
+Package: libcups
+Version: 2.2.8-1
+Depends: libc, zlib, libpthread, libpng, libjpeg
+Source: package/cups
+Section: libs
 Architecture: mvebu
 Installed-Size: 174227
 Filename: libcups_2.2.8-1_mvebu.ipk
@@ -693,6 +787,19 @@ Filename: libcupscgi_2.2.8-1_brcm47xx.ipk
 Size: 23596
 MD5Sum: 12abb471c9e006ff67a8ac002f494aff
 SHA256sum: 104ef5135da8eaabd8e658f277685e166fa9a799d03e6c54b2c1741c3fe13de6
+Description:  Common UNIX Printing System - CGI library
+
+Package: libcupscgi
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: kirkwood
+Installed-Size: 22289
+Filename: libcupscgi_2.2.8-1_kirkwood.ipk
+Size: 22913
+MD5Sum: 7a1e8ac50235b99b356b68873fd3c546
+SHA256sum: 40b6e52626fbc8462bb98c731da898d8f217e047a034a57e5a8afa406f7d97d6
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupscgi
@@ -791,6 +898,19 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: libs
+Architecture: kirkwood
+Installed-Size: 12748
+Filename: libcupsimage_2.2.8-1_kirkwood.ipk
+Size: 13445
+MD5Sum: 5e5a288d528c32d03f0d2fd21397461c
+SHA256sum: 7278a12cab72d76f8081350c9e2f000884746cc2a8226e4f381b5c6f468893c0
+Description:  Common UNIX Printing System - Image library
+
+Package: libcupsimage
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
 Architecture: mvebu
 Installed-Size: 12619
 Filename: libcupsimage_2.2.8-1_mvebu.ipk
@@ -882,6 +1002,19 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: libs
+Architecture: kirkwood
+Installed-Size: 7631
+Filename: libcupsmime_2.2.8-1_kirkwood.ipk
+Size: 8350
+MD5Sum: 388ae15c43f5dcb07c6586a0e1a9f224
+SHA256sum: b809645f205842fade8d4dbb58403f0a39b15ecc2b584632ebee6005c9eccd3b
+Description:  Common UNIX Printing System - MIME library
+
+Package: libcupsmime
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
 Architecture: mvebu
 Installed-Size: 7601
 Filename: libcupsmime_2.2.8-1_mvebu.ipk
@@ -966,6 +1099,19 @@ Filename: libcupsppdc_2.2.8-1_brcm47xx.ipk
 Size: 41994
 MD5Sum: cd10902b43ca1a634c04ffee294ac778
 SHA256sum: 217964c73b5ad6213879c0f26ab4920fc665b1a380fe0443a499d78815a6d515
+Description:  Common UNIX Printing System - PPDC library
+
+Package: libcupsppdc
+Version: 2.2.8-1
+Depends: libc, libcups, libstdcpp
+Source: package/cups
+Section: libs
+Architecture: kirkwood
+Installed-Size: 41292
+Filename: libcupsppdc_2.2.8-1_kirkwood.ipk
+Size: 41974
+MD5Sum: c781b0b37a0651ff6fff3cad04753f1b
+SHA256sum: 2a67bffc57710d9d72538d5d2d6c461e9f69c4b9151cf78fb07e2567e6b16f19
 Description:  Common UNIX Printing System - PPDC library
 
 Package: libcupsppdc
