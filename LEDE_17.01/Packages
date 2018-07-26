@@ -39,6 +39,18 @@ Version: 2.2.8-1
 Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: package/cups
 Section: net
+Architecture: arm_xscale
+Installed-Size: 587814
+Filename: cups_2.2.8-1_arm_xscale.ipk
+Size: 587114
+SHA256sum: 48a41b9ecfd9a1f4345816e78792e6921e055c2ce4e964e20414e89399d9dcad
+Description:  Common UNIX Printing System (daemon)
+
+Package: cups
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
+Source: package/cups
+Section: net
 Architecture: i386_pentium4
 Installed-Size: 540123
 Filename: cups_2.2.8-1_i386_pentium4.ipk
@@ -146,6 +158,21 @@ Installed-Size: 15783
 Filename: cups-bjnp_2.0.1-1_arm_cortex-a9_vfpv3.ipk
 Size: 16553
 SHA256sum: 0699016991078a00463c452665838641aa69a4025bcd1f7b362130c61c50c63a
+Description:  CUPS backend for the canon printers using the proprietary USB over
+ IP BJNP protocol. This backend allows Cups to print over the network
+ to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
+ is designed by reverse engineering.
+
+Package: cups-bjnp
+Version: 2.0.1-1
+Depends: libc, cups
+Source: package/cups-bjnp
+Section: net
+Architecture: arm_xscale
+Installed-Size: 15956
+Filename: cups-bjnp_2.0.1-1_arm_xscale.ipk
+Size: 16737
+SHA256sum: 0e188bfa35004b12c526904e03f9f41205ed37ef61384e595877239b6c26eb68
 Description:  CUPS backend for the canon printers using the proprietary USB over
  IP BJNP protocol. This backend allows Cups to print over the network
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
@@ -282,6 +309,18 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: net
+Architecture: arm_xscale
+Installed-Size: 11319
+Filename: cups-bsd_2.2.8-1_arm_xscale.ipk
+Size: 12017
+SHA256sum: 2f8c9b0e93a4d5a373c4e0ef784f8e0e5b9967f73aedcefb774a68b84ab7cb29
+Description:  Common UNIX Printing System - BSD commands (old)
+
+Package: cups-bsd
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: net
 Architecture: i386_pentium4
 Installed-Size: 10227
 Filename: cups-bsd_2.2.8-1_i386_pentium4.ipk
@@ -383,6 +422,18 @@ Installed-Size: 100925
 Filename: cups-client_2.2.8-1_arm_cortex-a9_vfpv3.ipk
 Size: 101505
 SHA256sum: 31ed116e92b0fc13157da8ae8df703b87aa114837e620e1c434c1c3c2210816f
+Description:  Common UNIX Printing System - Client commands
+
+Package: cups-client
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsimage, libcupsmime
+Source: package/cups
+Section: net
+Architecture: arm_xscale
+Installed-Size: 101427
+Filename: cups-client_2.2.8-1_arm_xscale.ipk
+Size: 102105
+SHA256sum: 45658d7099e96b533526c2d953b141632ffb41062dea5eb18277f4f0ee83dfec
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-client
@@ -498,6 +549,18 @@ Version: 2.2.8-1
 Depends: libc, libcupsimage
 Source: package/cups
 Section: net
+Architecture: arm_xscale
+Installed-Size: 44803
+Filename: cups-filters_2.2.8-1_arm_xscale.ipk
+Size: 45480
+SHA256sum: 4f141ac8f41fa276940129c312b0e8ca6eacfce740e3cd3cccbd98a61dece030
+Description:  Common UNIX Printing System - Filter
+
+Package: cups-filters
+Version: 2.2.8-1
+Depends: libc, libcupsimage
+Source: package/cups
+Section: net
 Architecture: i386_pentium4
 Installed-Size: 37773
 Filename: cups-filters_2.2.8-1_i386_pentium4.ipk
@@ -599,6 +662,18 @@ Installed-Size: 13086
 Filename: cups-ppdc_2.2.8-1_arm_cortex-a9_vfpv3.ipk
 Size: 13753
 SHA256sum: 99c63d803fb9a33a39d6f98b6b2a59f71cf31b6657b17b341f72179128860bc0
+Description:  Common UNIX Printing System - PPDC utils
+
+Package: cups-ppdc
+Version: 2.2.8-1
+Depends: libc, libcupsppdc
+Source: package/cups
+Section: net
+Architecture: arm_xscale
+Installed-Size: 12991
+Filename: cups-ppdc_2.2.8-1_arm_xscale.ipk
+Size: 13652
+SHA256sum: 91b33d0be7b147830fa9b3c71ec46e6a26d0df6478572f11bad3ded558a3cb80
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: cups-ppdc
@@ -714,6 +789,18 @@ Version: 2.2.8-1
 Depends: libc, zlib, libpthread, libpng, libjpeg
 Source: package/cups
 Section: libs
+Architecture: arm_xscale
+Installed-Size: 184327
+Filename: libcups_2.2.8-1_arm_xscale.ipk
+Size: 181511
+SHA256sum: 32354ad804bb119fe68b60ec800bd440491db6736c23aa97f7bdeb77da061f16
+Description:  Common UNIX Printing System - Core library
+
+Package: libcups
+Version: 2.2.8-1
+Depends: libc, zlib, libpthread, libpng, libjpeg
+Source: package/cups
+Section: libs
 Architecture: i386_pentium4
 Installed-Size: 177555
 Filename: libcups_2.2.8-1_i386_pentium4.ipk
@@ -815,6 +902,18 @@ Installed-Size: 23601
 Filename: libcupscgi_2.2.8-1_arm_cortex-a9_vfpv3.ipk
 Size: 24222
 SHA256sum: 1d0c63a9e1354d2d97f845f82f6f684c0b6123657d310a8660dee5e3f84cdd64
+Description:  Common UNIX Printing System - CGI library
+
+Package: libcupscgi
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: arm_xscale
+Installed-Size: 23519
+Filename: libcupscgi_2.2.8-1_arm_xscale.ipk
+Size: 24135
+SHA256sum: 13004c183e46ea513daae0b1e872879c5addf3e9f28ce4df2c9bc1147068ffaf
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupscgi
@@ -930,6 +1029,18 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: libs
+Architecture: arm_xscale
+Installed-Size: 13367
+Filename: libcupsimage_2.2.8-1_arm_xscale.ipk
+Size: 14025
+SHA256sum: d14aa4f4c76a17921eadd8d54eaf9dd0d3efc4b4b4da81cfd41319e1650e0b14
+Description:  Common UNIX Printing System - Image library
+
+Package: libcupsimage
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
 Architecture: i386_pentium4
 Installed-Size: 12870
 Filename: libcupsimage_2.2.8-1_i386_pentium4.ipk
@@ -1038,6 +1149,18 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: libs
+Architecture: arm_xscale
+Installed-Size: 8075
+Filename: libcupsmime_2.2.8-1_arm_xscale.ipk
+Size: 8802
+SHA256sum: e6208415f9dc4489783c071e9c937e6b4d52518d1526eab82d37fbe0eb9d14bb
+Description:  Common UNIX Printing System - MIME library
+
+Package: libcupsmime
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
 Architecture: i386_pentium4
 Installed-Size: 8726
 Filename: libcupsmime_2.2.8-1_i386_pentium4.ipk
@@ -1139,6 +1262,18 @@ Installed-Size: 42125
 Filename: libcupsppdc_2.2.8-1_arm_cortex-a9_vfpv3.ipk
 Size: 42877
 SHA256sum: f0e782c75edf01a54c4d2850e6e84015cac02d3eb338122d4c6fe2c6e00dedb3
+Description:  Common UNIX Printing System - PPDC library
+
+Package: libcupsppdc
+Version: 2.2.8-1
+Depends: libc, libcups, libstdcpp
+Source: package/cups
+Section: libs
+Architecture: arm_xscale
+Installed-Size: 42306
+Filename: libcupsppdc_2.2.8-1_arm_xscale.ipk
+Size: 43041
+SHA256sum: 1151816c4c149da021cb01acaa4ac9ba607bb998c88c62692f9a4bdb56427f44
 Description:  Common UNIX Printing System - PPDC library
 
 Package: libcupsppdc
