@@ -10,6 +10,33 @@ Size: 823194
 SHA256sum: 507e18f4f974b2f73df462337aad659f35527f14dc05a44522cb0c4d9fb19836
 Description:  Common UNIX Printing System (daemon)
 
+Package: cups
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
+Source: package/cups
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 584123
+Filename: cups_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 583704
+SHA256sum: cb91e0dddab240321547f5f3f2ca65371d02aee0567ea12a6d53744db502e5d0
+Description:  Common UNIX Printing System (daemon)
+
+Package: cups-bjnp
+Version: 2.0.1-1
+Depends: libc, cups
+Source: package/cups-bjnp
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 15754
+Filename: cups-bjnp_2.0.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 16480
+SHA256sum: d257ff088d5119b7d53d99446e2d0e8d7dd2599d02a997e45416ffa7ddb50dd0
+Description:  CUPS backend for the canon printers using the proprietary USB over
+ IP BJNP protocol. This backend allows Cups to print over the network
+ to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
+ is designed by reverse engineering.
+
 Package: cups-bjnp
 Version: 2.0-1
 Depends: libc, cups
@@ -37,6 +64,18 @@ Size: 11712
 SHA256sum: a8eec3727dc61ec8b21749602d57778ffe321154f55c259cc750495809e7b166
 Description:  Common UNIX Printing System - BSD commands (old)
 
+Package: cups-bsd
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11157
+Filename: cups-bsd_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11854
+SHA256sum: 4659f3e5fd127c77651aed8fd76c38b0069e3f5fdee6c2ad97cd740dc6da7edd
+Description:  Common UNIX Printing System - BSD commands (old)
+
 Package: cups-client
 Version: 2.1.4-1
 Depends: libc, libcups, libcupsimage, libcupsmime
@@ -47,6 +86,18 @@ Installed-Size: 98279
 Filename: cups-client_2.1.4-1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 98772
 SHA256sum: 6427c7bf9ed357c91b45b75d8a98499a099309f404287f7458b6003ebb46e6bd
+Description:  Common UNIX Printing System - Client commands
+
+Package: cups-client
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsimage, libcupsmime
+Source: package/cups
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6032168
+Filename: cups-client_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6032749
+SHA256sum: acfedc4902b23dcd90567f1cdb30a21519e86aeca6212b1cfe47543bdf3ad55a
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-filters
@@ -61,6 +112,18 @@ Size: 133876
 SHA256sum: 0172c631224430474187073f3122dfe83d35900e10f9eacd35ed837479b91bf5
 Description:  Common UNIX Printing System - Filter
 
+Package: cups-filters
+Version: 2.2.8-1
+Depends: libc, libcupsimage
+Source: package/cups
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 42316
+Filename: cups-filters_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 43035
+SHA256sum: 04bbfc42d4956b3bccb52605047888c95311ef6f2fb0d75bdc871d48567ce65a
+Description:  Common UNIX Printing System - Filter
+
 Package: cups-ppdc
 Version: 2.1.4-1
 Depends: libc, libcupsppdc
@@ -71,6 +134,18 @@ Installed-Size: 13068
 Filename: cups-ppdc_2.1.4-1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 13721
 SHA256sum: 629300f259f3998d179d2d97a0ae2ef5a15075ff70d15e76a9a31c2bae04e51f
+Description:  Common UNIX Printing System - PPDC utils
+
+Package: cups-ppdc
+Version: 2.2.8-1
+Depends: libc, libcupsppdc
+Source: package/cups
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 13078
+Filename: cups-ppdc_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13751
+SHA256sum: 7bf5cfd9ccfc52320571e19b0200742e212645c430bb797e3ddbcd651705f1ce
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: libcups
@@ -85,6 +160,18 @@ Size: 555509
 SHA256sum: a95e357727b6700e3fd07b0af28092964ce8c4a72036d9aa2143337d2e19fa31
 Description:  Common UNIX Printing System - Core library
 
+Package: libcups
+Version: 2.2.8-1
+Depends: libc, zlib, libpthread, libpng, libjpeg
+Source: package/cups
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 183529
+Filename: libcups_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 180885
+SHA256sum: c99d7fdcaa0073d8332d4a9c5c1ebb1cbb1fe1da8752060fe854bf5fcf6449c5
+Description:  Common UNIX Printing System - Core library
+
 Package: libcupscgi
 Version: 2.1.4-1
 Depends: libc, libcups
@@ -95,6 +182,18 @@ Installed-Size: 70166
 Filename: libcupscgi_2.1.4-1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 70846
 SHA256sum: ae4b5477e004822b21bac6ed6d6981ca116459cc1f25edf2608c7c901f92804d
+Description:  Common UNIX Printing System - CGI library
+
+Package: libcupscgi
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23350
+Filename: libcupscgi_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24001
+SHA256sum: 411d5b432df763e0f9e082170f2b92347a2d91606e07ea1c1f4944d8d1d0ec3c
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupsimage
@@ -109,6 +208,18 @@ Size: 35683
 SHA256sum: 90c0dabc3e86c0695e03aa1adae1ee224a6e6bc4b830661df17dc013b27506cf
 Description:  Common UNIX Printing System - Image library
 
+Package: libcupsimage
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 12684
+Filename: libcupsimage_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13400
+SHA256sum: 179341a53e3f9e92b93ed4a7854bd060812b90a6f8c542ec3678d86e59a01db4
+Description:  Common UNIX Printing System - Image library
+
 Package: libcupsmime
 Version: 2.1.4-1
 Depends: libc, libcups
@@ -121,6 +232,18 @@ Size: 26710
 SHA256sum: 28c2bfe35ac68480fa59bd293f71fb835468f09a4b9537b8e5f42288e4ed64df
 Description:  Common UNIX Printing System - MIME library
 
+Package: libcupsmime
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8107
+Filename: libcupsmime_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8855
+SHA256sum: 942ae40d9c60e1c852f7db707ed1bd8c4e3c683afbc489656ee7eac873fb9ac3
+Description:  Common UNIX Printing System - MIME library
+
 Package: libcupsppdc
 Version: 2.1.4-1
 Depends: libc, libcups, libstdcpp
@@ -131,6 +254,18 @@ Installed-Size: 124172
 Filename: libcupsppdc_2.1.4-1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 124373
 SHA256sum: 3beb9d39c7db4cf18598fee4b9f8e1085bd94bfb8a081555da9d96479a9e0fa4
+Description:  Common UNIX Printing System - PPDC library
+
+Package: libcupsppdc
+Version: 2.2.8-1
+Depends: libc, libcups, libstdcpp
+Source: package/cups
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 42208
+Filename: libcupsppdc_2.2.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 42957
+SHA256sum: fea1dd74c4e16955c4b66b6ba31a573b7331fe1e268e99cc7b576937ace60359
 Description:  Common UNIX Printing System - PPDC library
 
 Package: luci-app-vlmcsd
