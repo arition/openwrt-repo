@@ -27,6 +27,18 @@ Version: 2.2.8-1
 Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: package/cups
 Section: net
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 585982
+Filename: cups_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 585055
+SHA256sum: 308220d6fc2f36b06269ed3f4aa58cf3aadf37f00e7ce731ad05a44d482791da
+Description:  Common UNIX Printing System (daemon)
+
+Package: cups
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
+Source: package/cups
+Section: net
 Architecture: mips_24kc
 Installed-Size: 538019
 Filename: cups_2.2.8-1_mips_24kc.ipk
@@ -95,6 +107,21 @@ Installed-Size: 15807
 Filename: cups-bjnp_2.0.1-1_arm_cortex-a9.ipk
 Size: 16590
 SHA256sum: 8c75deb6cc35743b9d02b5037de5c265e079ababdd7d520b1a2b9483e4ceb241
+Description:  CUPS backend for the canon printers using the proprietary USB over
+ IP BJNP protocol. This backend allows Cups to print over the network
+ to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
+ is designed by reverse engineering.
+
+Package: cups-bjnp
+Version: 2.0.1-1
+Depends: libc, cups
+Source: package/cups-bjnp
+Section: net
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 15783
+Filename: cups-bjnp_2.0.1-1_arm_cortex-a9_vfpv3.ipk
+Size: 16553
+SHA256sum: 0699016991078a00463c452665838641aa69a4025bcd1f7b362130c61c50c63a
 Description:  CUPS backend for the canon printers using the proprietary USB over
  IP BJNP protocol. This backend allows Cups to print over the network
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
@@ -189,6 +216,18 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: net
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 11281
+Filename: cups-bsd_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 11971
+SHA256sum: dc78e8387cc1aabe85f29fccf4a2517067319ffdcd0070501fc5769d9beda2e4
+Description:  Common UNIX Printing System - BSD commands (old)
+
+Package: cups-bsd
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: net
 Architecture: mips_24kc
 Installed-Size: 9942
 Filename: cups-bsd_2.2.8-1_mips_24kc.ipk
@@ -254,6 +293,18 @@ Installed-Size: 101604
 Filename: cups-client_2.2.8-1_arm_cortex-a9.ipk
 Size: 102136
 SHA256sum: 7f9d8c965167e6e34616d16b8809aec450490bf5550305af2c7e111a3dd14552
+Description:  Common UNIX Printing System - Client commands
+
+Package: cups-client
+Version: 2.2.8-1
+Depends: libc, libcups, libcupsimage, libcupsmime
+Source: package/cups
+Section: net
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 100925
+Filename: cups-client_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 101505
+SHA256sum: 31ed116e92b0fc13157da8ae8df703b87aa114837e620e1c434c1c3c2210816f
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-client
@@ -333,6 +384,18 @@ Version: 2.2.8-1
 Depends: libc, libcupsimage
 Source: package/cups
 Section: net
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 43153
+Filename: cups-filters_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 43860
+SHA256sum: 74964054142d07ea9079f2cc731c0eb8ec7a3bd65aef9778177eb99b08a38e91
+Description:  Common UNIX Printing System - Filter
+
+Package: cups-filters
+Version: 2.2.8-1
+Depends: libc, libcupsimage
+Source: package/cups
+Section: net
 Architecture: mips_24kc
 Installed-Size: 39744
 Filename: cups-filters_2.2.8-1_mips_24kc.ipk
@@ -398,6 +461,18 @@ Installed-Size: 13081
 Filename: cups-ppdc_2.2.8-1_arm_cortex-a9.ipk
 Size: 13744
 SHA256sum: 921c0a1fc4093f343336a222d69c789b00e1f7ebfc066c17f7b9e89405f4d91d
+Description:  Common UNIX Printing System - PPDC utils
+
+Package: cups-ppdc
+Version: 2.2.8-1
+Depends: libc, libcupsppdc
+Source: package/cups
+Section: net
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 13086
+Filename: cups-ppdc_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 13753
+SHA256sum: 99c63d803fb9a33a39d6f98b6b2a59f71cf31b6657b17b341f72179128860bc0
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: cups-ppdc
@@ -477,6 +552,18 @@ Version: 2.2.8-1
 Depends: libc, zlib, libpthread, libpng, libjpeg
 Source: package/cups
 Section: libs
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 183874
+Filename: libcups_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 181113
+SHA256sum: 0d10d87d96705bc8ec71e16f3b387deac62ad7150e434bcabea906fcfda4d3ef
+Description:  Common UNIX Printing System - Core library
+
+Package: libcups
+Version: 2.2.8-1
+Depends: libc, zlib, libpthread, libpng, libjpeg
+Source: package/cups
+Section: libs
 Architecture: mips_24kc
 Installed-Size: 168851
 Filename: libcups_2.2.8-1_mips_24kc.ipk
@@ -542,6 +629,18 @@ Installed-Size: 23600
 Filename: libcupscgi_2.2.8-1_arm_cortex-a9.ipk
 Size: 24226
 SHA256sum: 0df17625dfa630b0c8ec6d03765e365ed3edab2f7cc4539f6c1cbb4c7fbcae1a
+Description:  Common UNIX Printing System - CGI library
+
+Package: libcupscgi
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 23601
+Filename: libcupscgi_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 24222
+SHA256sum: 1d0c63a9e1354d2d97f845f82f6f684c0b6123657d310a8660dee5e3f84cdd64
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupscgi
@@ -621,6 +720,18 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: libs
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 12909
+Filename: libcupsimage_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 13570
+SHA256sum: 802856bf213453744f8b6541b20340bcdce1a4fb9fb86cf9712e2f5d5a1e6373
+Description:  Common UNIX Printing System - Image library
+
+Package: libcupsimage
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
 Architecture: mips_24kc
 Installed-Size: 12426
 Filename: libcupsimage_2.2.8-1_mips_24kc.ipk
@@ -693,6 +804,18 @@ Version: 2.2.8-1
 Depends: libc, libcups
 Source: package/cups
 Section: libs
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 8099
+Filename: libcupsmime_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 8836
+SHA256sum: 7188b1b2bd836c35a98c989518cad7961d62f118b54a04cd7142a79b0e2b70dc
+Description:  Common UNIX Printing System - MIME library
+
+Package: libcupsmime
+Version: 2.2.8-1
+Depends: libc, libcups
+Source: package/cups
+Section: libs
 Architecture: mips_24kc
 Installed-Size: 7478
 Filename: libcupsmime_2.2.8-1_mips_24kc.ipk
@@ -758,6 +881,18 @@ Installed-Size: 42507
 Filename: libcupsppdc_2.2.8-1_arm_cortex-a9.ipk
 Size: 43141
 SHA256sum: e8da8ca43f9f3b4488939f24ac3e08d82e01605983bd2852c975321574d6e458
+Description:  Common UNIX Printing System - PPDC library
+
+Package: libcupsppdc
+Version: 2.2.8-1
+Depends: libc, libcups, libstdcpp
+Source: package/cups
+Section: libs
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 42125
+Filename: libcupsppdc_2.2.8-1_arm_cortex-a9_vfpv3.ipk
+Size: 42877
+SHA256sum: f0e782c75edf01a54c4d2850e6e84015cac02d3eb338122d4c6fe2c6e00dedb3
 Description:  Common UNIX Printing System - PPDC library
 
 Package: libcupsppdc
