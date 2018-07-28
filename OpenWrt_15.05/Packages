@@ -746,11 +746,11 @@ Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
 Architecture: bcm53xx
-Installed-Size: 491977
+Installed-Size: 491984
 Filename: hplip_3.18.6-2_bcm53xx.ipk
-Size: 489911
-MD5Sum: 990087cea45bdee4bdb1bd31a262bf02
-SHA256sum: 4ebe05f6b8ceacbdd47039e4f4aa7ec360eaaab50310f8f2b4799b3b5ae31d6d
+Size: 489867
+MD5Sum: d0cf707da3110d134ca03889b6cf6559
+SHA256sum: e902ae5997790360e81d24b96b9907dd5b6e8ed8eda5420fec476adbd8c99b32
 Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
 
 Package: hplip
@@ -850,11 +850,11 @@ Depends: libc, hplip
 Source: package/hplip
 Section: utils
 Architecture: bcm53xx
-Installed-Size: 11280010
+Installed-Size: 11280024
 Filename: hplip-ppds_3.18.6-2_bcm53xx.ipk
-Size: 11280661
-MD5Sum: 8f7e40187a2f12af3ca953ff5250e800
-SHA256sum: f457f70b2fa326d3a7b4cdf3898028ca8e85a6d0692e74c4059531209164b447
+Size: 11280125
+MD5Sum: 06bd038e880c68d2befc7a111c5308f0
+SHA256sum: dd7c13780e9852aef6d4cdd827afccb40fd296e51a9caead2ee2cd119dc7b25d
 Description:  PPD files for CUPS.
 
 Package: hplip-ppds
@@ -954,11 +954,11 @@ Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
 Architecture: bcm53xx
-Installed-Size: 67068
+Installed-Size: 67069
 Filename: hplip-scan_3.18.6-2_bcm53xx.ipk
-Size: 67677
-MD5Sum: a61586331de260f47bac5590eb1008b6
-SHA256sum: 35dabb2e982d7471b2ab661fbffa3646bc3b71d0302aec70db465aa2de91dd31
+Size: 67697
+MD5Sum: cd52d97ce430adb3239a7e56219d8a14
+SHA256sum: b7c68f4af97e0e12cace45d6b690c91427f363a5c04bddefd3f58fac9251e938
 Description:  Libraries to use HP Printers/Scanners with Sane.
 
 Package: hplip-scan
@@ -1058,11 +1058,11 @@ Depends: libc, hplip, hplip-scan
 Source: package/hplip
 Section: utils
 Architecture: bcm53xx
-Installed-Size: 348596
+Installed-Size: 348601
 Filename: hplip-tools_3.18.6-2_bcm53xx.ipk
-Size: 349365
-MD5Sum: 2943f9c5c9ba39a1cd5af24cf2ad9512
-SHA256sum: 88e5d9db925274276d9917cd59229ed057c263edb821a4a1e4777d2a10d8176c
+Size: 349339
+MD5Sum: 0296159781de939f358b2909c368e93b
+SHA256sum: e4a5dd3c0e21bc615ce6671125f3e642c8d7651a1ac213fb060608786fc38f93
 Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
