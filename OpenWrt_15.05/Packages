@@ -732,6 +732,19 @@ Version: 3.18.6-2
 Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
+Architecture: ar71xx
+Installed-Size: 506392
+Filename: hplip_3.18.6-2_ar71xx.ipk
+Size: 503667
+MD5Sum: 2456f2b62065ad30589483d8284effa4
+SHA256sum: e9e040ca9bad8bd30552a4e09ba22b4678d183dd583248410ee7c406b90aacdb
+Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
+
+Package: hplip
+Version: 3.18.6-2
+Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
+Source: package/hplip
+Section: utils
 Architecture: bcm53xx
 Installed-Size: 491993
 Filename: hplip_3.18.6-2_bcm53xx.ipk
@@ -778,6 +791,19 @@ Size: 498733
 MD5Sum: 6ce3f922e32f23b3db928297c3ec9896
 SHA256sum: 08befd914fd5321a2bd0493e58be6d3f9b53e20c2d5f3f01edd59e92ccbf9a1a
 Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
+
+Package: hplip-ppds
+Version: 3.18.6-2
+Depends: libc, hplip
+Source: package/hplip
+Section: utils
+Architecture: ar71xx
+Installed-Size: 11280009
+Filename: hplip-ppds_3.18.6-2_ar71xx.ipk
+Size: 11280177
+MD5Sum: c5eac77e4abdfd34086f98846651ecb1
+SHA256sum: 34694db4ed1176dcc23f4ee17284aafdb0c672f080bdae1a773fc225bce1ac58
+Description:  PPD files for CUPS.
 
 Package: hplip-ppds
 Version: 3.18.6-2
@@ -836,6 +862,19 @@ Version: 3.18.6-2
 Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
+Architecture: ar71xx
+Installed-Size: 66952
+Filename: hplip-scan_3.18.6-2_ar71xx.ipk
+Size: 67692
+MD5Sum: 53e3cb3ef93f7a7ba18a515b4f791399
+SHA256sum: 2c4af611293e645cc242f981acd1372129651b2e40a9ef8816d5e0be9083b145
+Description:  Libraries to use HP Printers/Scanners with Sane.
+
+Package: hplip-scan
+Version: 3.18.6-2
+Depends: libc, hplip, libsane
+Source: package/hplip
+Section: utils
 Architecture: bcm53xx
 Installed-Size: 67068
 Filename: hplip-scan_3.18.6-2_bcm53xx.ipk
@@ -882,6 +921,19 @@ Size: 67927
 MD5Sum: 5e1f1bb12a20705a9fa38116296d8209
 SHA256sum: 1974517041ea48f36d83d816398d41034e40eeedc58f0fa8c71eb84ae4713710
 Description:  Libraries to use HP Printers/Scanners with Sane.
+
+Package: hplip-tools
+Version: 3.18.6-2
+Depends: libc, hplip, hplip-scan
+Source: package/hplip
+Section: utils
+Architecture: ar71xx
+Installed-Size: 349805
+Filename: hplip-tools_3.18.6-2_ar71xx.ipk
+Size: 350516
+MD5Sum: 8d97234e4570b5212433ac9e2b1c2f1f
+SHA256sum: bfba9f1c7970614f12a760cb7a54d7b8550ac4c342291c314a1579e0de56839d
+Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
 Version: 3.18.6-2
