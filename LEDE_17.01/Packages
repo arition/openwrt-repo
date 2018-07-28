@@ -801,6 +801,18 @@ Version: 3.18.6-2
 Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
+Architecture: mipsel_mips32
+Installed-Size: 510394
+Filename: hplip_3.18.6-2_mipsel_mips32.ipk
+Size: 508803
+SHA256sum: e9afde435aa8933243b8b66d71ddcc8b2240f2714b032ec5b6567f75726c087e
+Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
+
+Package: hplip
+Version: 3.18.6-2
+Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
+Source: package/hplip
+Section: utils
 Architecture: mips_mips32
 Installed-Size: 511680
 Filename: hplip_3.18.6-2_mips_mips32.ipk
@@ -854,6 +866,18 @@ Installed-Size: 11278593
 Filename: hplip-ppds_3.18.6-2_mipsel_24kc.ipk
 Size: 11279078
 SHA256sum: 17f7fe84ed9012fc6c1fe1f4d9c7696eb6906ff3d3eab89cf82bb55a90972d13
+Description:  PPD files for CUPS.
+
+Package: hplip-ppds
+Version: 3.18.6-2
+Depends: libc, hplip
+Source: package/hplip
+Section: utils
+Architecture: mipsel_mips32
+Installed-Size: 11278567
+Filename: hplip-ppds_3.18.6-2_mipsel_mips32.ipk
+Size: 11275818
+SHA256sum: 0f713462b8d324a1ddf1471a1666256e7a7a1e3ec061b6ad045b0f710e0253ff
 Description:  PPD files for CUPS.
 
 Package: hplip-ppds
@@ -921,6 +945,18 @@ Version: 3.18.6-2
 Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
+Architecture: mipsel_mips32
+Installed-Size: 69790
+Filename: hplip-scan_3.18.6-2_mipsel_mips32.ipk
+Size: 70516
+SHA256sum: ce52db06b539a8f5fa54f0c8fc4e6cb989580b8a9396d94485cfa8f6a0e415a9
+Description:  Libraries to use HP Printers/Scanners with Sane.
+
+Package: hplip-scan
+Version: 3.18.6-2
+Depends: libc, hplip, libsane
+Source: package/hplip
+Section: utils
 Architecture: mips_mips32
 Installed-Size: 69955
 Filename: hplip-scan_3.18.6-2_mips_mips32.ipk
@@ -974,6 +1010,18 @@ Installed-Size: 353528
 Filename: hplip-tools_3.18.6-2_mipsel_24kc.ipk
 Size: 354293
 SHA256sum: 438e1fe8487f5f2499a96eb94fa46171bd94a1c1869f2d20e1552fd1d5a58587
+Description:  Command line tools for managing your printer.
+
+Package: hplip-tools
+Version: 3.18.6-2
+Depends: libc, hplip, hplip-scan
+Source: package/hplip
+Section: utils
+Architecture: mipsel_mips32
+Installed-Size: 353471
+Filename: hplip-tools_3.18.6-2_mipsel_mips32.ipk
+Size: 354236
+SHA256sum: 1412c5e4a361306d58057783156840759c7c3171cde46eb429cdfa26b77c41f6
 Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
