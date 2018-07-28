@@ -790,10 +790,10 @@ Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
 Architecture: i386_pentium4
-Installed-Size: 501931
+Installed-Size: 501928
 Filename: hplip_3.18.6-2_i386_pentium4.ipk
-Size: 500053
-SHA256sum: 449a0f40649f1ac7611f6ca4e8201a2a49522ee743c30838b210a4ed18257db2
+Size: 500056
+SHA256sum: 69180483f55164289bb58f3af24667ad34ff5aa840847aa44822c7465162eab3
 Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
 
 Package: hplip
@@ -898,10 +898,10 @@ Depends: libc, hplip
 Source: package/hplip
 Section: utils
 Architecture: i386_pentium4
-Installed-Size: 11278613
+Installed-Size: 11278618
 Filename: hplip-ppds_3.18.6-2_i386_pentium4.ipk
-Size: 11276914
-SHA256sum: 88488c6e69a0c6a61eec82bb55f00e9a249d3137860caf16fdb81b23bb3b6466
+Size: 11276918
+SHA256sum: 5072849b384863b0de891f57ea8db974d53415461ca018e47a6ea1de776028f0
 Description:  PPD files for CUPS.
 
 Package: hplip-ppds
@@ -1006,10 +1006,10 @@ Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
 Architecture: i386_pentium4
-Installed-Size: 66377
+Installed-Size: 66379
 Filename: hplip-scan_3.18.6-2_i386_pentium4.ipk
-Size: 67088
-SHA256sum: 843cb9703591f5207ca788a42387ca9d98b6ffb4974808ab7288d79d7cf54b15
+Size: 67096
+SHA256sum: 4a862a7e4eadc265cef481b435158091a39154f4da9823d68d752a00b62b3c76
 Description:  Libraries to use HP Printers/Scanners with Sane.
 
 Package: hplip-scan
@@ -1114,10 +1114,10 @@ Depends: libc, hplip, hplip-scan
 Source: package/hplip
 Section: utils
 Architecture: i386_pentium4
-Installed-Size: 352135
+Installed-Size: 352142
 Filename: hplip-tools_3.18.6-2_i386_pentium4.ipk
-Size: 352898
-SHA256sum: 640587b44452a56f95796283a3327c10aa8e6b34eec310c7f13ce999101c73e8
+Size: 352862
+SHA256sum: 8f853b4f82454f2fc730cc498043a2f6dbe601068cbe1d12f5c63892382af86b
 Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
