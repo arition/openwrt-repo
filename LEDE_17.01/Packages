@@ -754,10 +754,10 @@ Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 496563
+Installed-Size: 496568
 Filename: hplip_3.18.6-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 494945
-SHA256sum: 7d9514b60a6de54cecfd2c480775bc9b9ccedffa4c028a4abe3379407c3e35f7
+Size: 494970
+SHA256sum: f001cd14f542499eddafeff27b6d7f1bc31db428085b8609c874c2e4197a7161
 Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
 
 Package: hplip
@@ -862,10 +862,10 @@ Depends: libc, hplip
 Source: package/hplip
 Section: utils
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 11278587
+Installed-Size: 11278606
 Filename: hplip-ppds_3.18.6-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 11279273
-SHA256sum: 1d37b9caff92900ed87b76d3353906c91881e0bd553bb90ab0e70ee089cc1281
+Size: 11279419
+SHA256sum: aee7f51143d0088b64288025267b695c8d81dcff863350dbbcff7acb20c7dd21
 Description:  PPD files for CUPS.
 
 Package: hplip-ppds
@@ -970,10 +970,10 @@ Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 68419
+Installed-Size: 68415
 Filename: hplip-scan_3.18.6-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 69082
-SHA256sum: 63cea913af820775ea1c5b0c42ff7a11888a72d1c6d61156426815a9f6a55acd
+Size: 69071
+SHA256sum: 83ef6b796fa36e4ed8c5cc504876d31fc237ca0c2a4d55c8edd0fa6f5cadd703
 Description:  Libraries to use HP Printers/Scanners with Sane.
 
 Package: hplip-scan
@@ -1078,10 +1078,10 @@ Depends: libc, hplip, hplip-scan
 Source: package/hplip
 Section: utils
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 352632
+Installed-Size: 352652
 Filename: hplip-tools_3.18.6-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 353341
-SHA256sum: cab2a4ca2c03db19129a829c7b71d9dc01dc21003eae6e75e23908a346b75a13
+Size: 353351
+SHA256sum: 0847f2420233d54777cf4dbedb466c4a23d4350175032ce44283c7dc43c54567
 Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
