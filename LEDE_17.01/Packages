@@ -789,6 +789,18 @@ Version: 3.18.6-2
 Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
+Architecture: arm_xscale
+Installed-Size: 498940
+Filename: hplip_3.18.6-2_arm_xscale.ipk
+Size: 497300
+SHA256sum: 1ce1d369b7230caa596d1ec348a665cc994fea39dd9af431e6c3841b782d003e
+Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
+
+Package: hplip
+Version: 3.18.6-2
+Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
+Source: package/hplip
+Section: utils
 Architecture: i386_pentium4
 Installed-Size: 501928
 Filename: hplip_3.18.6-2_i386_pentium4.ipk
@@ -890,6 +902,18 @@ Installed-Size: 11278613
 Filename: hplip-ppds_3.18.6-2_arm_cortex-a9_vfpv3.ipk
 Size: 11276795
 SHA256sum: ca44da368d509c84bfb638082087b076ff20397dc417abd0484f7f9eddb6e958
+Description:  PPD files for CUPS.
+
+Package: hplip-ppds
+Version: 3.18.6-2
+Depends: libc, hplip
+Source: package/hplip
+Section: utils
+Architecture: arm_xscale
+Installed-Size: 11278637
+Filename: hplip-ppds_3.18.6-2_arm_xscale.ipk
+Size: 11279593
+SHA256sum: 46aeeeca11be0bfe4a83c8e8cfba3c4fb1523a1d19b3fa94292922bb9e145ccd
 Description:  PPD files for CUPS.
 
 Package: hplip-ppds
@@ -1005,6 +1029,18 @@ Version: 3.18.6-2
 Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
+Architecture: arm_xscale
+Installed-Size: 69081
+Filename: hplip-scan_3.18.6-2_arm_xscale.ipk
+Size: 69714
+SHA256sum: dda206d7f4e7995d4c613428bfad425a9ac3ce2fea31a783cca0f7b7bf46c89c
+Description:  Libraries to use HP Printers/Scanners with Sane.
+
+Package: hplip-scan
+Version: 3.18.6-2
+Depends: libc, hplip, libsane
+Source: package/hplip
+Section: utils
 Architecture: i386_pentium4
 Installed-Size: 66379
 Filename: hplip-scan_3.18.6-2_i386_pentium4.ipk
@@ -1106,6 +1142,18 @@ Installed-Size: 352932
 Filename: hplip-tools_3.18.6-2_arm_cortex-a9_vfpv3.ipk
 Size: 353619
 SHA256sum: 0195079a37aa427ec5c28311c127948d1f99dcf0017ac6cca3875b42513560e7
+Description:  Command line tools for managing your printer.
+
+Package: hplip-tools
+Version: 3.18.6-2
+Depends: libc, hplip, hplip-scan
+Source: package/hplip
+Section: utils
+Architecture: arm_xscale
+Installed-Size: 353346
+Filename: hplip-tools_3.18.6-2_arm_xscale.ipk
+Size: 354096
+SHA256sum: 49bcd77cd9a4b93c2080997a315bc82d4dfe3c2959af032638b294ab68da3d05
 Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
