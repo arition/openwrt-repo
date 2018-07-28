@@ -777,6 +777,18 @@ Version: 3.18.6-2
 Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 497543
+Filename: hplip_3.18.6-2_arm_cortex-a9_vfpv3.ipk
+Size: 495679
+SHA256sum: 16be6d4dd419ac2d6d402058d533de65c26830f5bed88c40c58be0d1a8afd864
+Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
+
+Package: hplip
+Version: 3.18.6-2
+Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
+Source: package/hplip
+Section: utils
 Architecture: mips_24kc
 Installed-Size: 511910
 Filename: hplip_3.18.6-2_mips_24kc.ipk
@@ -842,6 +854,18 @@ Installed-Size: 11278621
 Filename: hplip-ppds_3.18.6-2_arm_cortex-a9.ipk
 Size: 11277968
 SHA256sum: 3fd3430c72fd79d2758fef40e084c96d6c483a854cc975e3af209a50bed01227
+Description:  PPD files for CUPS.
+
+Package: hplip-ppds
+Version: 3.18.6-2
+Depends: libc, hplip
+Source: package/hplip
+Section: utils
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 11278598
+Filename: hplip-ppds_3.18.6-2_arm_cortex-a9_vfpv3.ipk
+Size: 11278957
+SHA256sum: ed78b83d86d5a142d4e3970ecc9349847daf66a54a834272bee0ff76e70272c2
 Description:  PPD files for CUPS.
 
 Package: hplip-ppds
@@ -921,6 +945,18 @@ Version: 3.18.6-2
 Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 68705
+Filename: hplip-scan_3.18.6-2_arm_cortex-a9_vfpv3.ipk
+Size: 69303
+SHA256sum: 15c5604419950bb7df5b878249e9f6791bccdc528ad25dc4537a7ded65498217
+Description:  Libraries to use HP Printers/Scanners with Sane.
+
+Package: hplip-scan
+Version: 3.18.6-2
+Depends: libc, hplip, libsane
+Source: package/hplip
+Section: utils
 Architecture: mips_24kc
 Installed-Size: 70099
 Filename: hplip-scan_3.18.6-2_mips_24kc.ipk
@@ -986,6 +1022,18 @@ Installed-Size: 353209
 Filename: hplip-tools_3.18.6-2_arm_cortex-a9.ipk
 Size: 353905
 SHA256sum: 1ce1cf5569a95225a9eae2dca5f90b52c4149453a60adc48c983f2b06b53b317
+Description:  Command line tools for managing your printer.
+
+Package: hplip-tools
+Version: 3.18.6-2
+Depends: libc, hplip, hplip-scan
+Source: package/hplip
+Section: utils
+Architecture: arm_cortex-a9_vfpv3
+Installed-Size: 352917
+Filename: hplip-tools_3.18.6-2_arm_cortex-a9_vfpv3.ipk
+Size: 353589
+SHA256sum: 4ba807b8fa3484f5ba92df1adf14256a8771349e951dabeee8fd5390e52d18fa
 Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
