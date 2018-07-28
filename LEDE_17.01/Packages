@@ -826,10 +826,10 @@ Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
 Architecture: mipsel_mips32
-Installed-Size: 510394
+Installed-Size: 510398
 Filename: hplip_3.18.6-2_mipsel_mips32.ipk
-Size: 508803
-SHA256sum: e9afde435aa8933243b8b66d71ddcc8b2240f2714b032ec5b6567f75726c087e
+Size: 508654
+SHA256sum: fbc31e8519ea3461a708157a233b1cc34365cec799e92b6ecfcada502c909f97
 Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
 
 Package: hplip
@@ -934,10 +934,10 @@ Depends: libc, hplip
 Source: package/hplip
 Section: utils
 Architecture: mipsel_mips32
-Installed-Size: 11278567
+Installed-Size: 11278601
 Filename: hplip-ppds_3.18.6-2_mipsel_mips32.ipk
-Size: 11275818
-SHA256sum: 0f713462b8d324a1ddf1471a1666256e7a7a1e3ec061b6ad045b0f710e0253ff
+Size: 11276852
+SHA256sum: 59ac74aa6e85886b8cdd988d96c42ece2551464bde4fa6aab292963fc3b098dc
 Description:  PPD files for CUPS.
 
 Package: hplip-ppds
@@ -1042,10 +1042,10 @@ Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
 Architecture: mipsel_mips32
-Installed-Size: 69790
+Installed-Size: 69792
 Filename: hplip-scan_3.18.6-2_mipsel_mips32.ipk
-Size: 70516
-SHA256sum: ce52db06b539a8f5fa54f0c8fc4e6cb989580b8a9396d94485cfa8f6a0e415a9
+Size: 70509
+SHA256sum: 79fab6daef17e5da1b9fef474f90687ad1d0a2823ef4556527a083087f23cce2
 Description:  Libraries to use HP Printers/Scanners with Sane.
 
 Package: hplip-scan
@@ -1150,10 +1150,10 @@ Depends: libc, hplip, hplip-scan
 Source: package/hplip
 Section: utils
 Architecture: mipsel_mips32
-Installed-Size: 353471
+Installed-Size: 353458
 Filename: hplip-tools_3.18.6-2_mipsel_mips32.ipk
-Size: 354236
-SHA256sum: 1412c5e4a361306d58057783156840759c7c3171cde46eb429cdfa26b77c41f6
+Size: 354206
+SHA256sum: 735fd85bbcfe2082687fc3f676969d670e4a4c20e55c92a6b8f6c2656dcea774
 Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
