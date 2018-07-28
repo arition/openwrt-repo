@@ -766,10 +766,10 @@ Depends: libc, libjpeg, libusb-1.0, cups, libcupsimage
 Source: package/hplip
 Section: utils
 Architecture: arm_cortex-a9
-Installed-Size: 498182
+Installed-Size: 498187
 Filename: hplip_3.18.6-2_arm_cortex-a9.ipk
-Size: 496518
-SHA256sum: 5ec73d1472a1ed87687d33636bf85beeedd1425ca09f8b2dc75e38e2f5f49210
+Size: 496571
+SHA256sum: c8cc0ad8e466adacb7cd54f7c6ddf49068d5fe0bfb99b6219980f9cb5e70d49e
 Description:  HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
 
 Package: hplip
@@ -862,10 +862,10 @@ Depends: libc, hplip
 Source: package/hplip
 Section: utils
 Architecture: arm_cortex-a9
-Installed-Size: 11278621
+Installed-Size: 11278614
 Filename: hplip-ppds_3.18.6-2_arm_cortex-a9.ipk
-Size: 11277968
-SHA256sum: 3fd3430c72fd79d2758fef40e084c96d6c483a854cc975e3af209a50bed01227
+Size: 11279327
+SHA256sum: 9fea84e87bc794ba2e4b91f32d2309df920d72159927e97ee50de82016ba8043
 Description:  PPD files for CUPS.
 
 Package: hplip-ppds
@@ -958,10 +958,10 @@ Depends: libc, hplip, libsane
 Source: package/hplip
 Section: utils
 Architecture: arm_cortex-a9
-Installed-Size: 68933
+Installed-Size: 68932
 Filename: hplip-scan_3.18.6-2_arm_cortex-a9.ipk
-Size: 69662
-SHA256sum: eb3cc0eb96526110cb7e7296c97214e3bac2bf28bbe4665ca7ede9357a7f3c42
+Size: 69641
+SHA256sum: 87ffe366f96cd52224354701960703beb7a8eac1a82644cbacf9d4f520cbccf2
 Description:  Libraries to use HP Printers/Scanners with Sane.
 
 Package: hplip-scan
@@ -1054,10 +1054,10 @@ Depends: libc, hplip, hplip-scan
 Source: package/hplip
 Section: utils
 Architecture: arm_cortex-a9
-Installed-Size: 353209
+Installed-Size: 353196
 Filename: hplip-tools_3.18.6-2_arm_cortex-a9.ipk
-Size: 353905
-SHA256sum: 1ce1cf5569a95225a9eae2dca5f90b52c4149453a60adc48c983f2b06b53b317
+Size: 353924
+SHA256sum: bbe82788cfc9988b53eb784b78e153a6d47f609e00431469050ca6905d43ce63
 Description:  Command line tools for managing your printer.
 
 Package: hplip-tools
