@@ -40,10 +40,10 @@ Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: package/cups
 Section: net
 Architecture: arm_xscale
-Installed-Size: 587825
+Installed-Size: 563433
 Filename: cups_2.2.8-1_arm_xscale.ipk
-Size: 586843
-SHA256sum: b0813c98da80e95a6938517ada9374f80eff803c9c1ae13f8a742fef11b29f41
+Size: 562658
+SHA256sum: 1cf512b02543a5cf64134de37e4919edceb994386f6503d9f7cdd6534fe80c3e
 Description:  Common UNIX Printing System (daemon)
 
 Package: cups
@@ -169,10 +169,10 @@ Depends: libc, cups
 Source: package/cups-bjnp
 Section: net
 Architecture: arm_xscale
-Installed-Size: 15955
+Installed-Size: 15954
 Filename: cups-bjnp_2.0.1-1_arm_xscale.ipk
-Size: 16733
-SHA256sum: ba6a15db6d5fdc3813aa1d34205df46ac213ff609e6caf2a3316a429ceda0bbe
+Size: 16732
+SHA256sum: f3e9185559062cac47f910cde402152cdeeefacf3ffd4f463eabd1687ab8fad9
 Description:  CUPS backend for the canon printers using the proprietary USB over
  IP BJNP protocol. This backend allows Cups to print over the network
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
@@ -310,10 +310,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: net
 Architecture: arm_xscale
-Installed-Size: 11317
+Installed-Size: 11321
 Filename: cups-bsd_2.2.8-1_arm_xscale.ipk
-Size: 12016
-SHA256sum: 4ae2448644b0a4e4d5fd89341054012d1ecfde20bd9275107070768e10438d00
+Size: 11998
+SHA256sum: 11a289ce9ec3bab8eb069b43da3b32339537fffbee324803640c277d3e9a0e89
 Description:  Common UNIX Printing System - BSD commands (old)
 
 Package: cups-bsd
@@ -430,10 +430,10 @@ Depends: libc, libcups, libcupsimage, libcupsmime
 Source: package/cups
 Section: net
 Architecture: arm_xscale
-Installed-Size: 101428
+Installed-Size: 6031905
 Filename: cups-client_2.2.8-1_arm_xscale.ipk
-Size: 102119
-SHA256sum: 2a013fafe0ef253c9ced68a30bd4ac027cffa3ff8f0256af5740afde047fb058
+Size: 6032483
+SHA256sum: ab363bfa87be6e25646a2a455f5b23de5bc23a259e144664ea1a475aa91fdbd6
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-client
@@ -550,10 +550,10 @@ Depends: libc, libcupsimage
 Source: package/cups
 Section: net
 Architecture: arm_xscale
-Installed-Size: 44805
+Installed-Size: 44809
 Filename: cups-filters_2.2.8-1_arm_xscale.ipk
-Size: 45442
-SHA256sum: a1afb68886ffc2964e524bc64273149bf0816dcfff9ffc7548c35074a36357f7
+Size: 45478
+SHA256sum: d255676bb96709eaa243522e94457bb0f4c5a3110440e03593dd9039a907a3a4
 Description:  Common UNIX Printing System - Filter
 
 Package: cups-filters
@@ -672,8 +672,8 @@ Section: net
 Architecture: arm_xscale
 Installed-Size: 12989
 Filename: cups-ppdc_2.2.8-1_arm_xscale.ipk
-Size: 13647
-SHA256sum: d7a3f32d31820ee21493b95171324bb5179d4f83ef43114b26083dca8c7e3e30
+Size: 13646
+SHA256sum: dc76d57853e415b854e45078679ff0a9e851e3d2e7a152dc4c2addf92287ce21
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: cups-ppdc
@@ -1272,8 +1272,8 @@ Section: libs
 Architecture: arm_xscale
 Installed-Size: 184326
 Filename: libcups_2.2.8-1_arm_xscale.ipk
-Size: 181498
-SHA256sum: bcb305b424628b2dd33a695b70b017ffa295632fb8f34d6c97c8216d809bdd3d
+Size: 181501
+SHA256sum: 7a0963cf42ff16b1367b5d16b3a2cbf361f05986d0bfc26f34d6bb81a8728126
 Description:  Common UNIX Printing System - Core library
 
 Package: libcups
@@ -1392,8 +1392,8 @@ Section: libs
 Architecture: arm_xscale
 Installed-Size: 23519
 Filename: libcupscgi_2.2.8-1_arm_xscale.ipk
-Size: 24060
-SHA256sum: ab0c2b54061b1dbe8927f5c83a9f2e9ca437ac400875a091b8372a1f0028a306
+Size: 24064
+SHA256sum: 670bc0b510cbde1ddd70a9371bb2054eb10a50c06e8ca4f943ae9902b873c22a
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupscgi
@@ -1510,10 +1510,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: arm_xscale
-Installed-Size: 13365
+Installed-Size: 13366
 Filename: libcupsimage_2.2.8-1_arm_xscale.ipk
-Size: 14024
-SHA256sum: 22dbca70c0764b22886438b358d77bc72ab187414c7be471b41dafbc10ddd9c9
+Size: 14029
+SHA256sum: 8eb30c2b5390c5f04e868934fcad8850ed70f7ae80b8299a44393dc9e9a81f4c
 Description:  Common UNIX Printing System - Image library
 
 Package: libcupsimage
@@ -1630,10 +1630,10 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: arm_xscale
-Installed-Size: 8074
+Installed-Size: 8075
 Filename: libcupsmime_2.2.8-1_arm_xscale.ipk
-Size: 8800
-SHA256sum: 7aebdc3672b61a5c8d1833ed7bdf68499fbef0ac929f8900d2f6832f7b8a9657
+Size: 8803
+SHA256sum: 33de0d5be2dddecd4d7ed314cfc4e82967027ff77060d06d6ef87ec78c8c2949
 Description:  Common UNIX Printing System - MIME library
 
 Package: libcupsmime
@@ -1750,10 +1750,10 @@ Depends: libc, libcups, libstdcpp
 Source: package/cups
 Section: libs
 Architecture: arm_xscale
-Installed-Size: 42307
+Installed-Size: 42300
 Filename: libcupsppdc_2.2.8-1_arm_xscale.ipk
-Size: 43026
-SHA256sum: ca157febbbd699acdd1d851d0a59315fbe4683e774eec1801a279c37aea5c5a0
+Size: 43034
+SHA256sum: 9a718ab896d7c704079b46036531d71a59f8743e272d5c0cdd5c8d0fd19f0525
 Description:  Common UNIX Printing System - PPDC library
 
 Package: libcupsppdc
