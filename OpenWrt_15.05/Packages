@@ -56,11 +56,11 @@ Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: package/cups
 Section: net
 Architecture: kirkwood
-Installed-Size: 577712
+Installed-Size: 553070
 Filename: cups_2.2.8-1_kirkwood.ipk
-Size: 577262
-MD5Sum: 8f0467b1939edfbab3b9abc2ceb47f86
-SHA256sum: 42e1c2845dd21aa8ff0e39592416b8f70943ce81dcaac021415bdf8c21d28a0d
+Size: 552523
+MD5Sum: f29331b69cf7708dd1d12d9a6d9023a8
+SHA256sum: 081a011da3d0893ec8097e69b29029d5dcd3be29ccf9437ee725fb7e0f024337
 Description:  Common UNIX Printing System (daemon)
 
 Package: cups
@@ -185,11 +185,11 @@ Depends: libc, cups
 Source: package/cups-bjnp
 Section: net
 Architecture: kirkwood
-Installed-Size: 15427
+Installed-Size: 15428
 Filename: cups-bjnp_2.0.1-1_kirkwood.ipk
-Size: 16190
-MD5Sum: 7d20e5fede288824d8e3234a7f817d33
-SHA256sum: 4ad28f74a151793ab997055fff6ad385f849004d0cb461df9dfbd57a601df82f
+Size: 16194
+MD5Sum: a61b672cfd2ef7abc3bdb1821572fd2d
+SHA256sum: 50e89d01dcff2f01470c9d809c684790196372ba88c02d527cdbeac9d73dae22
 Description:  CUPS backend for the canon printers using the proprietary USB over
  IP BJNP protocol. This backend allows Cups to print over the network
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
@@ -317,11 +317,11 @@ Depends: libc, libcups
 Source: package/cups
 Section: net
 Architecture: kirkwood
-Installed-Size: 11486
+Installed-Size: 11487
 Filename: cups-bsd_2.2.8-1_kirkwood.ipk
-Size: 12161
-MD5Sum: e94aac4ef9bf6dc5ceff28a09ab829b7
-SHA256sum: 30eafde0ffdebbb8ee7d2633852757440be2ddc00a62ed5e6348425fefb8e4e0
+Size: 12170
+MD5Sum: edc6a25c6237c49f49642289c3351d1f
+SHA256sum: f3c4b7eec09e0b3f2be795ed2ab290fdc7b2c59f3a9a51e7d6b97cd79c055d92
 Description:  Common UNIX Printing System - BSD commands (old)
 
 Package: cups-bsd
@@ -434,11 +434,11 @@ Depends: libc, libcups, libcupsimage, libcupsmime
 Source: package/cups
 Section: net
 Architecture: kirkwood
-Installed-Size: 100699
+Installed-Size: 6031029
 Filename: cups-client_2.2.8-1_kirkwood.ipk
-Size: 101259
-MD5Sum: 00a832705097c91adad63c8e5ccf4731
-SHA256sum: d29447e6e650f17829fe33d17b62c0d40d997b86d2b68a397a0ffc70e953272d
+Size: 6030788
+MD5Sum: 290dee9ddc6e6704aede947fe7ef126e
+SHA256sum: 57a2dbba1a624ca746c7f81f1e27d66e3f517e240c71796f23af1d40e43b885f
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-client
@@ -551,11 +551,11 @@ Depends: libc, libcupsimage
 Source: package/cups
 Section: net
 Architecture: kirkwood
-Installed-Size: 46639
+Installed-Size: 46642
 Filename: cups-filters_2.2.8-1_kirkwood.ipk
-Size: 47313
-MD5Sum: 992cf9f3ca6b63faae6d445b58ade638
-SHA256sum: fcf4d7d69d589953fdf7300148bc44bc6d0936cee616c47391026a2cfc05e376
+Size: 47314
+MD5Sum: e0ced00f94fd099f188e9b1d6d90c141
+SHA256sum: 15bf1bee793852f97c135f519b19c5bd2cda61090ab8a21efe74fbfd94a1588a
 Description:  Common UNIX Printing System - Filter
 
 Package: cups-filters
@@ -668,11 +668,11 @@ Depends: libc, libcupsppdc
 Source: package/cups
 Section: net
 Architecture: kirkwood
-Installed-Size: 13323
+Installed-Size: 13329
 Filename: cups-ppdc_2.2.8-1_kirkwood.ipk
-Size: 13982
-MD5Sum: 45365e4fb6e46f8e9e6f762741115ce5
-SHA256sum: b338c0118dd0cec2629ede945939b1662b95cd60b1811842b87dbb00451dc9da
+Size: 13958
+MD5Sum: 4f906610a3e0a0981d1e36aa7a1a549a
+SHA256sum: 9786084a658227581a320cd14e06c9a48c47d52f61b2b2a0e03662c2fdac153f
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: cups-ppdc
@@ -1253,11 +1253,11 @@ Depends: libc, zlib, libpthread, libpng, libjpeg
 Source: package/cups
 Section: libs
 Architecture: kirkwood
-Installed-Size: 175113
+Installed-Size: 175119
 Filename: libcups_2.2.8-1_kirkwood.ipk
-Size: 172480
-MD5Sum: 5f5b372e90e931892f81d4281e10164f
-SHA256sum: 1ec3a9c02c98926c135df3127b5d6f12c7ebe72c8a02c4873d9b3516911b7868
+Size: 172500
+MD5Sum: 5d334d1f1e643f0d0b55bd6714892285
+SHA256sum: 27181288f6736586c74e2b377b054aa5e450b7a98c5129c4d6644a2f28f669c5
 Description:  Common UNIX Printing System - Core library
 
 Package: libcups
@@ -1370,11 +1370,11 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: kirkwood
-Installed-Size: 22289
+Installed-Size: 22291
 Filename: libcupscgi_2.2.8-1_kirkwood.ipk
-Size: 22913
-MD5Sum: 7a1e8ac50235b99b356b68873fd3c546
-SHA256sum: 40b6e52626fbc8462bb98c731da898d8f217e047a034a57e5a8afa406f7d97d6
+Size: 22958
+MD5Sum: baa3ef5930dd528c091b63e9cba803f5
+SHA256sum: 6bd99e9789227a3480ef465897d210ca3cab7de0a80f45c217076b43717b02d1
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupscgi
@@ -1487,11 +1487,11 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: kirkwood
-Installed-Size: 12748
+Installed-Size: 12753
 Filename: libcupsimage_2.2.8-1_kirkwood.ipk
-Size: 13445
-MD5Sum: 5e5a288d528c32d03f0d2fd21397461c
-SHA256sum: 7278a12cab72d76f8081350c9e2f000884746cc2a8226e4f381b5c6f468893c0
+Size: 13446
+MD5Sum: 67527b4f91639d5e5142aa3eee99f7e0
+SHA256sum: 6a191e1d906b341c829e88f85a402a699c0aa34f8fcc5cf8f5c61cc4d192de3e
 Description:  Common UNIX Printing System - Image library
 
 Package: libcupsimage
@@ -1604,11 +1604,11 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: kirkwood
-Installed-Size: 7631
+Installed-Size: 7633
 Filename: libcupsmime_2.2.8-1_kirkwood.ipk
-Size: 8350
-MD5Sum: 388ae15c43f5dcb07c6586a0e1a9f224
-SHA256sum: b809645f205842fade8d4dbb58403f0a39b15ecc2b584632ebee6005c9eccd3b
+Size: 8357
+MD5Sum: d8b433e7adcf72763cf0319c3827b226
+SHA256sum: 4a0d739870eee697315f75a778333624c79d173d4f7da6dd5ffc42ab4e378187
 Description:  Common UNIX Printing System - MIME library
 
 Package: libcupsmime
@@ -1721,11 +1721,11 @@ Depends: libc, libcups, libstdcpp
 Source: package/cups
 Section: libs
 Architecture: kirkwood
-Installed-Size: 41292
+Installed-Size: 41294
 Filename: libcupsppdc_2.2.8-1_kirkwood.ipk
-Size: 41974
-MD5Sum: c781b0b37a0651ff6fff3cad04753f1b
-SHA256sum: 2a67bffc57710d9d72538d5d2d6c461e9f69c4b9151cf78fb07e2567e6b16f19
+Size: 41957
+MD5Sum: 22c79b5523c087db734115e997ed4716
+SHA256sum: 5ee9e4f125768723169617dbd9332156dbafcdf336300414d877ada03ca8a35b
 Description:  Common UNIX Printing System - PPDC library
 
 Package: libcupsppdc
