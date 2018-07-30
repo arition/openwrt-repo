@@ -69,11 +69,11 @@ Depends: libc, libcups, libcupsmime, libcupscgi, libcupsppdc, libusb-1.0
 Source: package/cups
 Section: net
 Architecture: mvebu
-Installed-Size: 577239
+Installed-Size: 552721
 Filename: cups_2.2.8-1_mvebu.ipk
-Size: 576289
-MD5Sum: c8fa86ee57c063ad5825fba8ee868ba8
-SHA256sum: e8c4f52c7fc919c34c28037dcfb3e1a62c2a5a0fca9fcd0ac35083ae9d7196b7
+Size: 552181
+MD5Sum: 1e1eec65fb2a20e7a40e55847e25bb4f
+SHA256sum: 95895aa81c770d9a83b2a4bc94271799d6f4193f55dec74d539cb7af59946dc8
 Description:  Common UNIX Printing System (daemon)
 
 Package: cups
@@ -201,11 +201,11 @@ Depends: libc, cups
 Source: package/cups-bjnp
 Section: net
 Architecture: mvebu
-Installed-Size: 15282
+Installed-Size: 15287
 Filename: cups-bjnp_2.0.1-1_mvebu.ipk
-Size: 16045
-MD5Sum: 9e66342c1995911f07063c234446b6c8
-SHA256sum: 310ba62cb451dec99a7e4c630dbf0882dbec7e84ed022db769cf8a223a43ea5d
+Size: 16050
+MD5Sum: a53843ff1774850fcc9dff97056149b0
+SHA256sum: f1e07aec776200064679b4b5b12b13df17c80face59b8e08c0dae7f9e16b5c94
 Description:  CUPS backend for the canon printers using the proprietary USB over
  IP BJNP protocol. This backend allows Cups to print over the network
  to a Canon printer. It currently supports Cups 1.2 and Cups 1.3 and
@@ -330,11 +330,11 @@ Depends: libc, libcups
 Source: package/cups
 Section: net
 Architecture: mvebu
-Installed-Size: 11452
+Installed-Size: 11450
 Filename: cups-bsd_2.2.8-1_mvebu.ipk
-Size: 12122
-MD5Sum: 12298123537993c9e6c8e5be199d15f5
-SHA256sum: 1a06a399a8d258e5f3ed7dba51ab6ecd4a09f27ae2f9a333e9532b854f25faf8
+Size: 12088
+MD5Sum: afef9d0caeb9204465053eee13404c2e
+SHA256sum: 24f9ba7a42bfa192e71af963d3cfc2869fdb3f85c8b0e1a9b5fd36edee3e7a92
 Description:  Common UNIX Printing System - BSD commands (old)
 
 Package: cups-bsd
@@ -447,11 +447,11 @@ Depends: libc, libcups, libcupsimage, libcupsmime
 Source: package/cups
 Section: net
 Architecture: mvebu
-Installed-Size: 100810
+Installed-Size: 6031166
 Filename: cups-client_2.2.8-1_mvebu.ipk
-Size: 101290
-MD5Sum: 93277804b9fa568e2a538f9ff46f50e8
-SHA256sum: aebfc901c6dbb6f51a82298bd432050b27fbb73a9468d55266663c000e514228
+Size: 6031130
+MD5Sum: 2bd0425835d2e1649916e94cc63f4672
+SHA256sum: bb1144afb4abafe78d4f07778f23c5d5157821e29f22d3e064c1d082d6abffa3
 Description:  Common UNIX Printing System - Client commands
 
 Package: cups-client
@@ -564,11 +564,11 @@ Depends: libc, libcupsimage
 Source: package/cups
 Section: net
 Architecture: mvebu
-Installed-Size: 46233
+Installed-Size: 46232
 Filename: cups-filters_2.2.8-1_mvebu.ipk
-Size: 46953
-MD5Sum: 995a6ab9d6973a089955371b3b100371
-SHA256sum: e2b44bd36a5a2c4774ab18ce6212d1f7003a89471a256f03aa40314565ed7223
+Size: 46963
+MD5Sum: 84ead2d1be813650005195eeb96f73fb
+SHA256sum: d89869c3bebed9a129179eb8fd761d50b5ec4ebc46f5bf8f60aa0d9a7389563c
 Description:  Common UNIX Printing System - Filter
 
 Package: cups-filters
@@ -681,11 +681,11 @@ Depends: libc, libcupsppdc
 Source: package/cups
 Section: net
 Architecture: mvebu
-Installed-Size: 13326
+Installed-Size: 13328
 Filename: cups-ppdc_2.2.8-1_mvebu.ipk
-Size: 13991
-MD5Sum: a076bf07b5254cf011ca4a23b30a471d
-SHA256sum: a90f9a05fc1303b130d1a9b8bf0126df63979f6e87e43e69e99f74e7fe493a82
+Size: 13966
+MD5Sum: 8c14bb0790a82d623de159ba0a2df91d
+SHA256sum: e077e8ac333708c863c564a3eeb6938c7a89a8ebc06cac380a220ea504e218d1
 Description:  Common UNIX Printing System - PPDC utils
 
 Package: cups-ppdc
@@ -1266,11 +1266,11 @@ Depends: libc, zlib, libpthread, libpng, libjpeg
 Source: package/cups
 Section: libs
 Architecture: mvebu
-Installed-Size: 174227
+Installed-Size: 174226
 Filename: libcups_2.2.8-1_mvebu.ipk
-Size: 171625
-MD5Sum: ab0382c1f507a682d2a70c32f3c9660f
-SHA256sum: cfd4b5cdf265cba7c73d75c90e2d15eb5373dcd6165c83c27faff28f35d0204d
+Size: 171599
+MD5Sum: 0e24694f339a9020dd20c3af1736e900
+SHA256sum: 9f222dbb4f3a89de51f8dc32c6ec746cd166b61245cce998b6587b5bc6c4981a
 Description:  Common UNIX Printing System - Core library
 
 Package: libcups
@@ -1385,9 +1385,9 @@ Section: libs
 Architecture: mvebu
 Installed-Size: 22355
 Filename: libcupscgi_2.2.8-1_mvebu.ipk
-Size: 23017
-MD5Sum: e100fedec27450e4c1733219a994fb90
-SHA256sum: 8d3ae2012ee3b9bd6d410c7ab0c7ed801027785482c1ca9f391c0f351c8de4db
+Size: 23013
+MD5Sum: 3b679ac156b6520a0822e05674977999
+SHA256sum: e653b252497003328b54698ba3e146ab6e97233ec314b69631eefebfc777f440
 Description:  Common UNIX Printing System - CGI library
 
 Package: libcupscgi
@@ -1500,11 +1500,11 @@ Depends: libc, libcups
 Source: package/cups
 Section: libs
 Architecture: mvebu
-Installed-Size: 12619
+Installed-Size: 12622
 Filename: libcupsimage_2.2.8-1_mvebu.ipk
-Size: 13285
-MD5Sum: 5fd937094854443707d02d3a68c1c775
-SHA256sum: 1a07b81e4a7f93d0f779555b1565c66cea5c52db244bfa121d0dc1738bddad37
+Size: 13315
+MD5Sum: 462a0ffb24d77b079573bdf6d4c6e81e
+SHA256sum: b81d078f0eade4ab33da2249c94cf3de55712835504847de23da97e5a55d8fa6
 Description:  Common UNIX Printing System - Image library
 
 Package: libcupsimage
@@ -1619,9 +1619,9 @@ Section: libs
 Architecture: mvebu
 Installed-Size: 7601
 Filename: libcupsmime_2.2.8-1_mvebu.ipk
-Size: 8315
-MD5Sum: 261af74241930afe74b904c7293f87c6
-SHA256sum: cdf3da2c89ffc4ba31e85808e5f8319583d1f9a55cbf9bee1de1aed0b29f23d7
+Size: 8317
+MD5Sum: 51aa0359f0916a7b5912f643e9ef17a1
+SHA256sum: e14435a209247e563338b5e5423533ed40cd5c3a7e82759e84755c8684c1b86d
 Description:  Common UNIX Printing System - MIME library
 
 Package: libcupsmime
@@ -1734,11 +1734,11 @@ Depends: libc, libcups, libstdcpp
 Source: package/cups
 Section: libs
 Architecture: mvebu
-Installed-Size: 41401
+Installed-Size: 41405
 Filename: libcupsppdc_2.2.8-1_mvebu.ipk
-Size: 42042
-MD5Sum: 9fe4f47108d8c07ebb681e8182d572d5
-SHA256sum: 2fad029049a13c9825c5550749b0e53a972c5ed0ce70f05fc6dec9d3034c30c9
+Size: 42041
+MD5Sum: ca0f95c76e383f80a6814f8609621a94
+SHA256sum: 60cd1244309d12eba1feceb01c2db6682087559a0dec26478dc0ee718af50a77
 Description:  Common UNIX Printing System - PPDC library
 
 Package: libcupsppdc
