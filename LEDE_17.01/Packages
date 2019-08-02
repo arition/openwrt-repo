@@ -2019,8 +2019,8 @@ Maintainer: HotBird64
 Architecture: arm_cortex-a9
 Installed-Size: 55015
 Filename: vlmcsd_svn1112-1_arm_cortex-a9.ipk
-Size: 55609
-SHA256sum: a5e42fc39ea2c0065ecbee38dfb03b06451bc22c687831e1ca85d1910d563f56
+Size: 55729
+SHA256sum: 24eeb741135934e4c304b8fafd697bb34d2d34036953fe4bb5502010e04b1219
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: vlmcsd
