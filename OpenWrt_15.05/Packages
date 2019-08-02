@@ -1997,11 +1997,11 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: HotBird64
 Architecture: kirkwood
-Installed-Size: 53497
+Installed-Size: 53500
 Filename: vlmcsd_svn1112-1_kirkwood.ipk
-Size: 53936
-MD5Sum: a32927825e71bf5d2a36f19173f3b74b
-SHA256sum: af339332f8739f55940e594f97d541e697fd8d6f9ba245713f187fe9c1add774
+Size: 54137
+MD5Sum: c158a4f83aa7a081a190338f994d9bfc
+SHA256sum: ecb4137b0b204f90a0e077d4f930a2e1198a3a75bd189366106d4738ef9e9d03
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: vlmcsd
