@@ -1,6 +1,6 @@
 OpenWrt / LEDE repository for LEDE_17.01
 ========
-Binaries built from this repository on 2018-07-30 can be downloaded from https://arition.github.io/openwrt-repo/.
+Binaries built from this repository on 2019-08-02 can be downloaded from https://arition.github.io/openwrt-repo/.
 To add the repo, run
 ```
 echo "src/gz arition_repo https://arition.github.io/openwrt-repo/LEDE_17.01" >> /etc/opkg/customfeeds.conf
