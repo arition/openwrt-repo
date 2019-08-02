@@ -2094,8 +2094,8 @@ Maintainer: HotBird64
 Architecture: mipsel_24kc
 Installed-Size: 51856
 Filename: vlmcsd_svn1112-1_mipsel_24kc.ipk
-Size: 52455
-SHA256sum: fed542b62e45376f92b572868dcb1ffc65ceb7a993290fa3078757359a0d4a8e
+Size: 52335
+SHA256sum: 0aa35152f9bdc5780b3e887800fe29c72cda57418daf9ccba8a15e6e1f83830a
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: vlmcsd
