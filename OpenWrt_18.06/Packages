@@ -111,6 +111,21 @@ License: MIT
 LicenseFiles: LICENSE
 Section: net
 Maintainer: HotBird64
+Architecture: mips_24kc
+Installed-Size: 50178
+Filename: vlmcsd_svn1112-1_mips_24kc.ipk
+Size: 50486
+SHA256sum: 57d42596858aaa337a3cc84908ff6b0d3d8af0f097473ad9c3aa0c2a93e25624
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: vlmcsd
+Version: svn1112-1
+Depends: libc, libpthread
+Source: package/vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: HotBird64
 Architecture: mipsel_24kc
 Installed-Size: 49442
 Filename: vlmcsd_svn1112-1_mipsel_24kc.ipk
