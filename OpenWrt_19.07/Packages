@@ -1,3 +1,19 @@
+Package: luci-app-vlmcsd
+Version: 1.0.2-1
+Depends: libc, vlmcsd
+Source: package/luci-app-vlmcsd
+SourceName: luci-app-vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: luci
+Maintainer: fuyumi
+Architecture: all
+Installed-Size: 1626
+Filename: luci-app-vlmcsd_1.0.2-1_all.ipk
+Size: 2478
+SHA256sum: b6230bcec92a767c006fb2bec0b23ad834acf3018802a8d1590c78fdc814b6ce
+Description:  This package contains LuCI configuration pages for openwrt-vlmcsd.
+
 Package: vlmcsd
 Version: svn1112-1
 Depends: libc, libpthread
