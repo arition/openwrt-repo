@@ -1,0 +1,38 @@
+name: Build packages
+on:
+  push:
+    - master
+  
+jobs:
+  build:
+    name: Build packages on  ${{ matrix.arch }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - arch: arm_cortex-a15_neon-vfpv4
+            target: armvirt-32
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Build
+        uses: openwrt/gh-action-sdk@v4
+        env:
+          ARCH: ${{ matrix.arch }}
+          FEEDNAME: arition_repo
+
+      - name: Store packages
+        uses: actions/upload-artifact@v2
+        with:
+          name: artifact
+          path: bin/*
+
+      - name: Store packages
+        uses: actions/upload-artifact@v2
+        with:
+          name: logs
+          path: logs/*
