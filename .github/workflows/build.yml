@@ -23,6 +23,7 @@ jobs:
         env:
           ARCH: ${{ matrix.arch }}
           FEEDNAME: arition_repo
+          V: 99
 
       - name: Store packages
         uses: actions/upload-artifact@v2
