@@ -1,7 +1,6 @@
 name: Build packages
 on:
-  push:
-    - master
+  push: [master]
   
 jobs:
   build:
