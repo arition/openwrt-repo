@@ -23,7 +23,7 @@ jobs:
         env:
           ARCH: ${{ matrix.arch }}
           FEEDNAME: arition_repo
-          V: 99
+          KEY_BUILD: ${{ secrets.OPENWRT_USIGN_PRIVATE_KEY }}
 
       - name: Store packages
         uses: actions/upload-artifact@v2
