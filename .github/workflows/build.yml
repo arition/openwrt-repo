@@ -41,3 +41,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: bin/packages/${{ matrix.arch }}/arition_repo
           destination_dir: ${{ matrix.sdk }}/${{ matrix.arch }}
+          enable_jekyll: true
