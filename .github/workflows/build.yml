@@ -4,14 +4,22 @@ on:
   
 jobs:
   build:
-    name: Build packages on  ${{ matrix.arch }}
+    name: ${{ matrix.sdk }}-${{ matrix.arch }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - arch: arm_cortex-a15_neon-vfpv4
-            target: armvirt-32
+        sdk: 
+          - openwrt-21.02
+          - openwrt-22.03
+        arch:
+         - arm_cortex-a9_vfpv3-d16
+         - arm_cortex-a15_neon-vfpv4
+         - aarch64_cortex-a53
+         - aarch64_cortex-a72
+         - mips_24kc
+         - mipsel_24kc
+         - x86_64
 
     steps:
       - uses: actions/checkout@v2
@@ -21,18 +29,13 @@ jobs:
       - name: Build
         uses: openwrt/gh-action-sdk@v4
         env:
-          ARCH: ${{ matrix.arch }}
+          ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: arition_repo
           KEY_BUILD: ${{ secrets.OPENWRT_USIGN_PRIVATE_KEY }}
 
-      - name: Store packages
-        uses: actions/upload-artifact@v2
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: artifact
-          path: bin/*
-
-      - name: Store packages
-        uses: actions/upload-artifact@v2
-        with:
-          name: logs
-          path: logs/*
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: bin/packages/${{ matrix.arch }}/arition_repo
+          destination_dir: ${{ matrix.sdk }}/${{ matrix.arch }}
