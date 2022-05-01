@@ -1,6 +1,7 @@
 name: Build packages
 on:
   push:
+   branches: [master]
   
 jobs:
   build:
@@ -20,6 +21,7 @@ jobs:
          - mips_24kc
          - mipsel_24kc
          - x86_64
+    if: "!contains(github.event.head_commit.message, 'ci skip')"
 
     steps:
       - uses: actions/checkout@v2
