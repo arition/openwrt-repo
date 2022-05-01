@@ -20,7 +20,7 @@ define Package/luci-app-vlmcsd
 	CATEGORY:=LuCI
 	SUBMENU:=3. Applications
 	TITLE:=LuCI app for openwrt-vlmcsd
-	DEPENDS:=+vlmcsd
+	DEPENDS:=+vlmcsd +luci-compat
 	PKGARCH:=all
 	MAINTAINER:=fuyumi
 endef
