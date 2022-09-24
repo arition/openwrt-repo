@@ -19,6 +19,6 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 53388
 Filename: vlmcsd_svn1113-1_aarch64_cortex-a53.ipk
 Size: 54077
-SHA256sum: 9dab2105eedb4cfded691066076c3a5260ffbf748ec7b56b86f5d5bbe30256af
+SHA256sum: 2165c1cf5efc89774765595345261ea077dbc502d0d56ce2b0e3f1e59a4c837b
 Description:  vlmcsd is a KMS Emulator in C.
 
