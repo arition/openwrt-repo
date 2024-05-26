@@ -6,8 +6,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1625
 Filename: luci-app-vlmcsd_1.0.2-1_all.ipk
-Size: 2516
-SHA256sum: 710835b8cb678d7e681a385d3043e97be910f93fed54d9d399ae32b3603f26e5
+Size: 2494
+SHA256sum: 8f67fa577b3014eeac543c5fe1c0db1ac80c9a36cd1907931bae9ec0067e0f92
 Description:  This package contains LuCI configuration pages for openwrt-vlmcsd.
 
 Package: vlmcsd
@@ -16,9 +16,9 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 54012
+Installed-Size: 54013
 Filename: vlmcsd_svn1113-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 54745
-SHA256sum: c41cf691378323d85897614bbda3a57a6aa585dbebf75b38be3d39da9c74b44c
+Size: 54733
+SHA256sum: 58f073ee5092f0a3fd7654edf1a9bfb0b9fe2e9e10a687a2548b2d30bdab723f
 Description:  vlmcsd is a KMS Emulator in C.
 
