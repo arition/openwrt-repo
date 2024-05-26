@@ -1,7 +1,7 @@
 Package: luci-app-vlmcsd
 Version: 1.0.2-1
 Depends: libc, vlmcsd, luci-compat
-Source: /home/runner/work/openwrt-repo/openwrt-repo/luci-app-vlmcsd
+Source: /feed/luci-app-vlmcsd
 SourceName: luci-app-vlmcsd
 License: MIT
 LicenseFiles: LICENSE
@@ -11,14 +11,14 @@ Maintainer: fuyumi
 Architecture: all
 Installed-Size: 1625
 Filename: luci-app-vlmcsd_1.0.2-1_all.ipk
-Size: 2516
-SHA256sum: 710835b8cb678d7e681a385d3043e97be910f93fed54d9d399ae32b3603f26e5
+Size: 2494
+SHA256sum: 8f67fa577b3014eeac543c5fe1c0db1ac80c9a36cd1907931bae9ec0067e0f92
 Description:  This package contains LuCI configuration pages for openwrt-vlmcsd.
 
 Package: vlmcsd
 Version: svn1113-1
 Depends: libc, libpthread
-Source: /home/runner/work/openwrt-repo/openwrt-repo/vlmcsd
+Source: /feed/vlmcsd
 SourceName: vlmcsd
 License: MIT
 LicenseFiles: LICENSE
@@ -26,9 +26,9 @@ Section: net
 SourceDateEpoch: 1651445374
 Maintainer: HotBird64
 Architecture: aarch64_cortex-a53
-Installed-Size: 53215
+Installed-Size: 53214
 Filename: vlmcsd_svn1113-1_aarch64_cortex-a53.ipk
-Size: 53887
-SHA256sum: 764f9c5edbcb4d87fc465b1d8275ce2e141141319c402c28a495859620b2dbf1
+Size: 53871
+SHA256sum: 97ac5399196689c6eb2d5fc32f7ed83511804013761dd94a263d9c25eed1c474
 Description:  vlmcsd is a KMS Emulator in C.
 
