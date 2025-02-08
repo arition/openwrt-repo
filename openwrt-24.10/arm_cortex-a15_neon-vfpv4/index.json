@@ -1,0 +1,1 @@
+{"architecture": "arm_cortex-a15_neon-vfpv4", "packages":{"luci-app-vlmcsd": "1.0.2-r1", "vlmcsd": "svn1113-r1"}}
