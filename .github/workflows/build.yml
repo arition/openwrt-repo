@@ -12,9 +12,7 @@ jobs:
       fail-fast: false
       matrix:
         sdk: 
-          - openwrt-22.03
-          - openwrt-23.05
-          - openwrt-24.10
+          - openwrt-25.12
         arch:
          - arm_cortex-a9_vfpv3-d16
          - arm_cortex-a15_neon-vfpv4
@@ -31,7 +29,7 @@ jobs:
           fetch-depth: 0
 
       - name: Build
-        uses: openwrt/gh-action-sdk@v7
+        uses: openwrt/gh-action-sdk@main
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: arition_repo
