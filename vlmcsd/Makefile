@@ -1,18 +1,20 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=vlmcsd
-PKG_VERSION:=svn1113
+PKG_VERSION:=1113
 PKG_RELEASE:=1
 
 PKG_MAINTAINER:=HotBird64
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
 
-PKG_SOURCE:=$(PKG_VERSION).tar.gz
+# Keep the upstream tag separate from the numeric version required by APK.
+PKG_SOURCE_VERSION:=svn$(PKG_VERSION)
+PKG_SOURCE:=$(PKG_SOURCE_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/cokebar/vlmcsd/archive
-PKG_MD5SUM:=ea19cc1346fba447daced0224b670423
+PKG_HASH:=b932cbb9453a797ab4bc1fc0cb651434412e8ed8fe2df8ec04996c65264654fa
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_SOURCE_VERSION)
 PKG_BUILD_PARALLEL:=1
 
 include $(INCLUDE_DIR)/package.mk

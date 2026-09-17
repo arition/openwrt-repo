@@ -2,8 +2,11 @@ name: Build packages
 on:
   workflow_dispatch:
   push:
-   branches: [master]
-  
+    branches: [master]
+
+permissions:
+  contents: write
+
 jobs:
   build:
     name: ${{ matrix.sdk }}-${{ matrix.arch }}
@@ -11,20 +14,20 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        sdk: 
+        sdk:
           - openwrt-25.12
         arch:
-         - arm_cortex-a9_vfpv3-d16
-         - arm_cortex-a15_neon-vfpv4
-         - aarch64_cortex-a53
-         - aarch64_cortex-a72
-         - mips_24kc
-         - mipsel_24kc
-         - x86_64
+          - arm_cortex-a9_vfpv3-d16
+          - arm_cortex-a15_neon-vfpv4
+          - aarch64_cortex-a53
+          - aarch64_cortex-a72
+          - mips_24kc
+          - mipsel_24kc
+          - x86_64
     if: "!contains(github.event.head_commit.message, 'ci skip')"
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -33,7 +36,8 @@ jobs:
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: arition_repo
-          KEY_BUILD: ${{ secrets.OPENWRT_USIGN_PRIVATE_KEY }}
+          INDEX: 1
+          PRIVATE_KEY: ${{ secrets.OPENWRT_APK_PRIVATE_KEY }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
