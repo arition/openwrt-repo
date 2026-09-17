@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "architecture": "mips_24kc",
+  "packages": {
+    "luci-app-vlmcsd": "1.0.2-r1",
+    "vlmcsd": "1113-r1"
+  }
+}
