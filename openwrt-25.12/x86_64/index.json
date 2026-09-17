@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "architecture": "x86_64",
+  "packages": {
+    "luci-app-vlmcsd": "1.0.2-r1",
+    "vlmcsd": "1113-r1"
+  }
+}
